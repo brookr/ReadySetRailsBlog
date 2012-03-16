@@ -1,0 +1,157 @@
+/*
+Theme Name: Swagger
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/* =Framework
+----------------------------------------------- */
+
+.sf-menu li { float:right; }
+.sf-menu li:hover ul, .sf-menu li.sfHover ul { left:inherit;right:0; }
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul,ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul { left:inherit; right:10em; }
+.sf-sub-indicator { right:inherit; left:.75em; }
+.themeblvd-contact-bar li { float:right; }
+.themeblvd-search input.search-input { float:right; }
+.dropcap { float:right; margin:5px 0 0 7px; }
+.tb-tabs .tab-nav ul li { float:right; }
+.tb-tabs-framed .tab-nav ul li a, .tb-tabs-open .tab-nav ul li a { margin:0 0 0 2px; }
+.element-tweet .tweet-icon { float:right;margin:0 0 0 30px; }
+.themeblvd-search input[type="submit"] { float:left; margin:3px 0 0 5px; }
+.element-slogan .has_button .tb-button { float:left; margin:0 20px 0 0; }
+.tb-toggle a.toggle-trigger span { right:10px; left:inherit; }
+.tb-button, input[type=submit] { margin: 5px 0 5px 10px; }
+
+
+/* =Global Elements and Typography
+-------------------------------------------------------------- */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+caption, th, td {
+	text-align: right;
+}
+ul, ol {
+	margin: 0 2.5em 1.625em 0;
+}
+
+/* =Content
+----------------------------------------------- */
+
+.pagination li {
+	float: right;
+	padding: 0 0 0 3px;
+}
+.entry-content td,
+.comment-content td {
+	padding: 6px 0 6px 10px;
+}
+#content .gallery-columns-4 .gallery-item {
+	padding-left:2%;
+}
+
+/* =Post List
+----------------------------------------------- */
+
+.post_list_paginated .read-more {
+	right: inherit;
+	left: 0;
+}
+
+/* =Comments
+----------------------------------------------- */
+
+#comments .comment-body {
+	padding: 15px 83px 15px 15px;
+}
+#comments .comment-body .avatar {
+	right: 15px;
+	left: inherit;
+}
+#comments .comment-body .reply a {
+	border-left: none;
+	border-right: 1px solid #e1e1e1;
+	right: inherit;
+	left: 0;
+}
+#comments ul.children {
+	margin: 10px 15px 10px 0;
+	padding: 0 20px 10px 0;
+}
+#commentform input {
+	margin: 0 0 0 10px;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#branding .social-media {
+	right: inherit;
+	left: 30px;
+}
+#access ul ul {
+	margin: 0 -1px 0 0;
+}
+#access li {
+	border-right: none;
+	border-left: 1px solid #e1e1e1;
+	float: right;
+}
+#access li a.sf-with-ul {
+	padding-left: 2.4em;
+}
+#access ul.sf-menu li li:hover ul,
+#access ul.sf-menu li li.sfHover ul,
+#access ul.sf-menu li li li:hover ul,
+#access ul.sf-menu li li li.sfHover ul {
+	left: inherit;
+	right: 200px; /* Matches previous ul width */
+}
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget ul ul {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+/* =Plugins
+----------------------------------------------- */
+
+/* Contact Form 7 */
+div.wpcf7 input,
+div.wpcf7 select {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/* =Builder
+----------------------------------------------- */
+
+.element-post_list .post_list .read-more,
+.element-post_list_slider .post_list .read-more {
+	float: left;
+}
+.element-post_list_paginated .read-more {
+	right: inherit;
+	left: 0;
+}
+
+/* =IE7
+----------------------------------------------- */
+
+#main #content, 
+#main .fixed-sidebar {
+	*margin-left:-1px;  /* IE7 */
+}
+.last {
+	*margin-lfet: -20px; /* IE7 Fix */
+}

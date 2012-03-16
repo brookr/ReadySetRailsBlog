@@ -1,0 +1,73 @@
+/**
+ * Styles for IE8 and below 
+ */
+
+/* Framework */
+.last {
+	*margin-right: -20px;  /* IE7 */
+}
+#main #content,
+#main .fixed-sidebar {
+	*margin-right: -1px; /* IE7 */
+}
+/* Theme */
+#featured .standard-slider .image-link span,
+#content .standard-slider .image-link span,
+#featured .carrousel-slider .image-link span,
+#content .carrousel-slider .image-link span {
+	position: static;
+}
+#featured,
+#featured .featured-content,
+.article-wrap,
+.article-wrap article,
+.fixed-sidebar .widget {
+	*position: static; /* IE7 */
+}
+#featured .slider_is_last .secondary-bg,
+#featured .has_blog_featured .secondary-bg {
+	*display: none; /* IE7 */
+}
+.element-post_list_paginated .read-more {
+	*float: right; /* IE7 */
+	*position: static; /* IE7 */
+}
+#featured .slides-wrapper .design-4 {
+	display: none;
+}
+#featured .standard-slider .image-link,
+#content .standard-slider .image-link,
+#featured .carrousel-slider .image-link,
+#content .carrousel-slider .image-link {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 24px;
+	height: 24px;
+}
+#access li a {
+	*line-height: 12px; /* IE7 */
+	*padding-top: 17px; /* IE7 */
+	*padding-bottom: 17px; /* IE7 */
+}
+#access li.home a {
+	*height: 46px; /* IE7 */
+}
+#main #breadcrumbs .home-link {
+	*display:block; /* IE7 */
+	*float: left; /* IE7 */
+	*margin-top: 2px; /* IE7 */
+}
+/* Allow drop down menus from main navigation to appear over sliders in IE7 */
+#container {
+	*position: relative; /* IE7 */
+	*z-index: 1; /* IE7 */
+}
+#container #top {
+	*position: relative; /* IE7 */
+	*z-index: 3; /* IE7 */
+}
+#container #featured {
+	*position: relative; /* IE7 */
+	*z-index: 2; /* IE7 */
+}

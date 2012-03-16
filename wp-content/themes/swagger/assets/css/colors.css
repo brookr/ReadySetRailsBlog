@@ -1,0 +1,2994 @@
+/**
+ * This file includes all of the styles specific to 
+ * change colors in the theme. 
+ *
+ * For advanced users, if you're looking to speed up 
+ * the load time of yoru site, you can remove all 
+ * the colors from this file that you're not using.
+ * 
+ * blue
+ * brown
+ * dark
+ * light
+ * light_blue
+ * light_orange
+ * midnight_blue
+ * mint
+ * orange
+ * purple
+ * red
+ * tan
+ */
+
+/* =General Mods
+-------------------------------------------------------------- */
+
+/* Heavy Shadows */
+.primary_brown #featured .slider-wrapper .design-1,
+.primary_dark #featured .slider-wrapper .design-1,
+.primary_midnight_blue #featured .slider-wrapper .design-1,
+.primary_orange #featured .slider-wrapper .design-1,
+.primary_purple #featured .slider-wrapper .design-1,
+.primary_red #featured .slider-wrapper .design-1 {
+    background-image: url(../images/slider-design-1-heavy.png);
+}
+.primary_brown #featured .slider-wrapper .design-2,
+.primary_brown #featured .slider-wrapper .design-3,
+.primary_dark #featured .slider-wrapper .design-2,
+.primary_dark #featured .slider-wrapper .design-3,
+.primary_midnight_blue #featured .slider-wrapper .design-2,
+.primary_midnight_blue #featured .slider-wrapper .design-3,
+.primary_orange #featured .slider-wrapper .design-2,
+.primary_orange #featured .slider-wrapper .design-3,
+.primary_purple #featured .slider-wrapper .design-2,
+.primary_purple #featured .slider-wrapper .design-3,
+.primary_red #featured .slider-wrapper .design-2,
+.primary_red #featured .slider-wrapper .design-3 {
+    background-image: url(../images/slider-design-2-3-heavy.png);
+}
+.primary_brown #featured .slider-wrapper .design-4,
+.primary_dark #featured .slider-wrapper .design-4,
+.primary_midnight_blue #featured .slider-wrapper .design-4,
+.primary_orange #featured .slider-wrapper .design-4,
+.primary_purple #featured .slider-wrapper .design-4,
+.primary_red #featured .slider-wrapper .design-4 {
+    background-image: url(../images/slider-design-4-heavy.png); 
+}
+.primary_brown .article-wrap,
+.primary_brown #respond,
+.primary_brown .element-content,
+.primary_brown .element-post_grid,
+.primary_brown .element-post_list,
+.primary_brown #content .element-columns,
+.primary_brown #content .element-post_grid_slider,
+.primary_brown #content .element-post_list_slider,
+.primary_brown #content .element-slider-standard,
+.primary_brown #content .element-slogan,
+.primary_brown #content .element-tweet,
+.primary_brown #comments li,
+.primary_dark .article-wrap,
+.primary_dark #respond,
+.primary_dark .element-content,
+.primary_dark .element-post_grid,
+.primary_dark .element-post_list,
+.primary_dark #content .element-columns,
+.primary_dark #content .element-post_grid_slider,
+.primary_dark #content .element-post_list_slider,
+.primary_dark #content .element-slider-standard,
+.primary_dark #content .element-slogan,
+.primary_dark #content .element-tweet,
+.primary_dark #comments li,
+.primary_midnight_blue .article-wrap,
+.primary_midnight_blue #respond,
+.primary_midnight_blue .element-content,
+.primary_midnight_blue .element-post_grid,
+.primary_midnight_blue .element-post_list,
+.primary_midnight_blue #content .element-columns,
+.primary_midnight_blue #content .element-post_grid_slider,
+.primary_midnight_blue #content .element-post_list_slider,
+.primary_midnight_blue #content .element-slider-standard,
+.primary_midnight_blue #content .element-slogan,
+.primary_midnight_blue #content .element-tweet,
+.primary_midnight_blue #comments li,
+.primary_orange .article-wrap,
+.primary_orange #respond,
+.primary_orange .element-content,
+.primary_orange .element-post_grid,
+.primary_orange .element-post_list,
+.primary_orange #content .element-columns,
+.primary_orange #content .element-post_grid_slider,
+.primary_orange #content .element-post_list_slider,
+.primary_orange #content .element-slider-standard,
+.primary_orange #content .element-slogan,
+.primary_orange #content .element-tweet,
+.primary_orange #comments li,
+.primary_purple .article-wrap,
+.primary_purple #respond,
+.primary_purple .element-content,
+.primary_purple .element-post_grid,
+.primary_purple .element-post_list,
+.primary_purple #content .element-columns,
+.primary_purple #content .element-post_grid_slider,
+.primary_purple #content .element-post_list_slider,
+.primary_purple #content .element-slider-standard,
+.primary_purple #content .element-slogan,
+.primary_purple #content .element-tweet,
+.primary_purple #comments li,
+.primary_red .article-wrap,
+.primary_red #respond,
+.primary_red .element-content,
+.primary_red .element-post_grid,
+.primary_red .element-post_list,
+.primary_red #content .element-columns,
+.primary_red #content .element-post_grid_slider,
+.primary_red #content .element-post_list_slider,
+.primary_red #content .element-slider-standard,
+.primary_red #content .element-slogan,
+.primary_red #content .element-tweet,
+.primary_red #comments li {
+	background-image: url(../images/article-shadow-heavy.png);
+}
+.primary_brown .fixed-sidebar .widget,
+.primary_dark .fixed-sidebar .widget,
+.primary_midnight_blue .fixed-sidebar .widget,
+.primary_orange .fixed-sidebar .widget,
+.primary_purple .fixed-sidebar .widget,
+.primary_red  .fixed-sidebar .widget {
+	background-image: url(../images/widget-shadow-heavy.png);
+}
+
+/* =Primary Colors
+-------------------------------------------------------------- */
+
+/* Blue */
+.primary_blue #featured {
+	background-image: url(../images/colors/blue/featured-bg.png);
+}
+.primary_blue #featured .slider_is_last .secondary-bg,
+.primary_blue #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/blue/featured-secondary-bg.png);
+}
+.primary_blue #main {
+	background-image: url(../images/colors/blue/main-bg.png);
+}
+.primary_blue #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/blue/slider-nav.png);
+}
+.primary_blue #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_blue #access li.home a,
+.primary_blue #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_blue #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_blue #featured .standard-slider-wrapper .prev, 
+.primary_blue #featured .standard-slider-wrapper .next, 
+.primary_blue #featured .standard-slider-wrapper .pause, 
+.primary_blue #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_blue,
+.primary_blue #top,
+.primary_blue #main,
+.primary_blue .pagination a,
+.primary_blue #access ul ul,
+.primary_blue #bottom,
+.primary_blue #bottom .copyright span,
+.primary_blue #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #8fa9bb;
+}
+.primary_blue #access li a:hover,
+.primary_blue .pagination a:hover,
+.primary_blue .pagination .current,
+.primary_blue #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #8098a9;
+}
+.primary_blue #featured,
+.primary_blue #access,
+.primary_blue #access ul ul,
+.primary_blue #access li,
+.primary_blue #featured .standard-slider-wrapper .slides-inner,
+.primary_blue #main,
+.primary_blue #main #breadcrumbs a,
+.primary_blue #bottom,
+.primary_blue #bottom .copyright,
+.primary_blue .divider-dashed, 
+.primary_blue .divider-solid,
+.primary_blue .tb-tabs-framed .tab-nav ul li a,
+.primary_blue .tb-tabs-framed .tab-content,
+.primary_blue .tb-tabs-open .tab-content,
+.primary_blue article,
+.primary_blue #respond,
+.primary_blue .fixed-sidebar .widget .widget-inner,
+.primary_blue .element-content .element-inner,
+.primary_blue .element-post_grid .element-inner,
+.primary_blue .element-post_list .element-inner,
+.primary_blue #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_blue #featured .element-post_list_slider .post_list .featured-image,
+.primary_blue #content .element-columns .element-inner,
+.primary_blue #content .element-post_grid_slider .element-inner,
+.primary_blue #content .element-post_list_slider .element-inner,
+.primary_blue #content .element-slider-standard .element-inner,
+.primary_blue #content .element-slogan .element-inner,
+.primary_blue #content .element-tweet .element-inner,
+.primary_blue #comments .comment-body,
+.primary_blue .pagination a,
+.primary_blue .pagination .current,
+.primary_blue #comments ul.children,
+.primary_blue #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #718999;
+}
+body.primary_blue,
+.primary_blue #branding .header_logo .tb-text-logo,
+.primary_blue #access li a,
+.primary_blue .pagination a,
+.primary_blue .pagination a:hover,
+.primary_blue #bottom a:hover,
+.primary_blue #commentform input[type="submit"],
+.primary_blue .tb-tabs-open .tab-nav ul li.active a,
+.primary_blue .tb-tabs-open .tab-nav ul li a:hover,
+.primary_blue #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_blue #main #breadcrumbs a,
+.primary_blue #bottom a,
+.primary_blue #featured .entry-meta a,
+.primary_blue .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.primary_blue #featured .featured-entry-title .entry-title,
+.primary_blue #featured .featured-entry-title .entry-title a,
+.primary_blue #featured .featured-entry-title .tagline,
+.primary_blue #featured .featured-entry-title .entry-meta,
+.primary_blue #featured .featured-entry-title .entry-meta a:hover,
+.primary_blue #featured .element-post_grid_slider .entry-title a,
+.primary_blue #featured .element-post_list_slider .entry-title a,
+.primary_blue #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #4a5b68;
+}
+.primary_blue .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Brown */
+.primary_brown #featured {
+	background-image: url(../images/colors/brown/featured-bg.png);
+}
+.primary_brown #featured .slider_is_last .secondary-bg,
+.primary_brown #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/brown/featured-secondary-bg.png);
+}
+.primary_brown #main {
+	background-image: url(../images/colors/brown/main-bg.png);
+}
+.primary_brown #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/brown/slider-nav.png);
+}
+.primary_brown #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_brown #access li.home a,
+.primary_brown #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_brown #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_brown #featured .standard-slider-wrapper .prev, 
+.primary_brown #featured .standard-slider-wrapper .next, 
+.primary_brown #featured .standard-slider-wrapper .pause, 
+.primary_brown #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_brown,
+.primary_brown #top,
+.primary_brown #main,
+.primary_brown .pagination a,
+.primary_brown #access ul ul,
+.primary_brown #bottom,
+.primary_brown #bottom .copyright span,
+.primary_brown #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #645248;
+}
+.primary_brown #access li a:hover,
+.primary_brown .pagination a:hover,
+.primary_brown .pagination .current,
+.primary_brown #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #57473d;
+}
+.primary_brown #featured,
+.primary_brown #access,
+.primary_brown #access ul ul,
+.primary_brown #access li,
+.primary_brown #featured .standard-slider-wrapper .slides-inner,
+.primary_brown #main,
+.primary_brown #main #breadcrumbs a,
+.primary_brown #bottom,
+.primary_brown #bottom .copyright,
+.primary_brown .divider-dashed, 
+.primary_brown .divider-solid,
+.primary_brown .tb-tabs-framed .tab-nav ul li a,
+.primary_brown .tb-tabs-framed .tab-content,
+.primary_brown .tb-tabs-open .tab-content,
+.primary_brown article,
+.primary_brown #respond,
+.primary_brown .fixed-sidebar .widget .widget-inner,
+.primary_brown .element-content .element-inner,
+.primary_brown .element-post_grid .element-inner,
+.primary_brown .element-post_list .element-inner,
+.primary_brown #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_brown #featured .element-post_list_slider .post_list .featured-image,
+.primary_brown #content .element-columns .element-inner,
+.primary_brown #content .element-post_grid_slider .element-inner,
+.primary_brown #content .element-post_list_slider .element-inner,
+.primary_brown #content .element-slider-standard .element-inner,
+.primary_brown #content .element-slogan .element-inner,
+.primary_brown #content .element-tweet .element-inner,
+.primary_brown #comments .comment-body,
+.primary_brown .pagination a,
+.primary_brown .pagination .current,
+.primary_brown #comments ul.children,
+.primary_brown #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #453831;
+}
+body.primary_brown,
+.primary_brown #branding .header_logo .tb-text-logo,
+.primary_brown #access li a,
+.primary_brown .pagination a,
+.primary_brown .pagination a:hover,
+.primary_brown #bottom a:hover,
+.primary_brown #commentform input[type="submit"],
+.primary_brown .tb-tabs-open .tab-nav ul li.active a,
+.primary_brown .tb-tabs-open .tab-nav ul li a:hover,
+.primary_brown #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_brown #main #breadcrumbs a,
+.primary_brown #bottom a,
+.primary_brown #featured .entry-meta a,
+.primary_brown .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.primary_brown #featured .featured-entry-title .entry-title,
+.primary_brown #featured .featured-entry-title .entry-title a,
+.primary_brown #featured .featured-entry-title .tagline,
+.primary_brown #featured .featured-entry-title .entry-meta,
+.primary_brown #featured .featured-entry-title .entry-meta a:hover,
+.primary_brown #featured .element-post_grid_slider .entry-title a,
+.primary_brown #featured .element-post_list_slider .entry-title a,
+.primary_brown #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #4a5b68;
+}
+.primary_brown .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Dark */
+.primary_dark #featured {
+	background-image: url(../images/colors/dark/featured-bg.png);
+}
+.primary_dark #featured .slider_is_last .secondary-bg,
+.primary_dark #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/dark/featured-secondary-bg.png);
+}
+.primary_dark #main {
+	background-image: url(../images/colors/dark/main-bg.png);
+}
+.primary_dark #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/dark/slider-nav.png);
+}
+.primary_dark #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_dark #access li.home a,
+.primary_dark #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_dark #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_dark #featured .standard-slider-wrapper .prev, 
+.primary_dark #featured .standard-slider-wrapper .next, 
+.primary_dark #featured .standard-slider-wrapper .pause, 
+.primary_dark #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_dark,
+.primary_dark #top,
+.primary_dark #main,
+.primary_dark .pagination a,
+.primary_dark #access ul ul,
+.primary_dark #bottom,
+.primary_dark #bottom .copyright span,
+.primary_dark #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #2e2e2e;
+}
+.primary_dark #access li a:hover,
+.primary_dark .pagination a:hover,
+.primary_dark .pagination .current,
+.primary_dark #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #242424;
+}
+.primary_dark #featured,
+.primary_dark #access,
+.primary_dark #access ul ul,
+.primary_dark #access li,
+.primary_dark #featured .standard-slider-wrapper .slides-inner,
+.primary_dark #main,
+.primary_dark #main #breadcrumbs a,
+.primary_dark #bottom,
+.primary_dark #bottom .copyright,
+.primary_dark .divider-dashed, 
+.primary_dark .divider-solid,
+.primary_dark .tb-tabs-framed .tab-nav ul li a,
+.primary_dark .tb-tabs-framed .tab-content,
+.primary_dark .tb-tabs-open .tab-content,
+.primary_dark article,
+.primary_dark #respond,
+.primary_dark .fixed-sidebar .widget .widget-inner,
+.primary_dark .element-content .element-inner,
+.primary_dark .element-post_grid .element-inner,
+.primary_dark .element-post_list .element-inner,
+.primary_dark #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_dark #featured .element-post_list_slider .post_list .featured-image,
+.primary_dark #content .element-columns .element-inner,
+.primary_dark #content .element-post_grid_slider .element-inner,
+.primary_dark #content .element-post_list_slider .element-inner,
+.primary_dark #content .element-slider-standard .element-inner,
+.primary_dark #content .element-slogan .element-inner,
+.primary_dark #content .element-tweet .element-inner,
+.primary_dark #comments .comment-body,
+.primary_dark .pagination a,
+.primary_dark .pagination .current,
+.primary_dark #comments ul.children,
+.primary_dark #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #000000;
+}
+body.primary_dark,
+.primary_dark #branding .header_logo .tb-text-logo,
+.primary_dark #access li a,
+.primary_dark .pagination a,
+.primary_dark .pagination a:hover,
+.primary_dark #bottom a:hover,
+.primary_dark #commentform input[type="submit"],
+.primary_dark .tb-tabs-open .tab-nav ul li.active a,
+.primary_dark .tb-tabs-open .tab-nav ul li a:hover,
+.primary_dark #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_dark #main #breadcrumbs a,
+.primary_dark #bottom a,
+.primary_dark #featured .entry-meta a,
+.primary_dark .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.primary_dark #featured .featured-entry-title .entry-title,
+.primary_dark #featured .featured-entry-title .entry-title a,
+.primary_dark #featured .featured-entry-title .tagline,
+.primary_dark #featured .featured-entry-title .entry-meta,
+.primary_dark #featured .featured-entry-title .entry-meta a:hover,
+.primary_dark #featured .element-post_grid_slider .entry-title a,
+.primary_dark #featured .element-post_list_slider .entry-title a,
+.primary_dark #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+}
+.primary_dark .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Light */
+.primary_light .element-post_grid_slider article .entry-title,
+.primary_light .element-post_grid_slider article .entry-title a {
+	color: #444444;	
+}
+
+/* Light Blue */
+.primary_light_blue #featured {
+	background-image: url(../images/colors/light_blue/featured-bg.png);
+}
+.primary_light_blue #featured .slider_is_last .secondary-bg,
+.primary_light_blue #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/light_blue/featured-secondary-bg.png);
+}
+.primary_light_blue #main {
+	background-image: url(../images/colors/light_blue/main-bg.png);
+}
+.primary_light_blue #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-dark.png);
+}
+.primary_light_blue #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/light_blue/slider-nav.png);
+}
+.primary_light_blue #access li.home a,
+.primary_light_blue #main #breadcrumbs .home-link {
+	background-image: url(../images/home-505050.png);
+}
+.primary_light_blue #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-505050.png);
+}
+.primary_light_blue #bottom .widget ul li a,
+.primary_light_blue .widget-area-collapsible .widget ul li a {
+	border-color: #505050;
+}
+.primary_light_blue #featured .standard-slider-wrapper .prev, 
+.primary_light_blue #featured .standard-slider-wrapper .next, 
+.primary_light_blue #featured .standard-slider-wrapper .pause, 
+.primary_light_blue #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+body.primary_light_blue,
+.primary_light_blue #top,
+.primary_light_blue #main,
+.primary_light_blue .pagination a,
+.primary_light_blue #access ul ul,
+.primary_light_blue #bottom,
+.primary_light_blue #bottom .copyright span,
+.primary_light_blue #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #edf6ff;
+}
+.primary_light_blue #access li a:hover,
+.primary_light_blue .pagination a:hover,
+.primary_light_blue .pagination .current,
+.primary_light_blue #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #e2edfc;
+}
+.primary_light_blue #featured,
+.primary_light_blue #access,
+.primary_light_blue #access ul ul,
+.primary_light_blue #access li,
+.primary_light_blue #featured .standard-slider-wrapper .slides-inner,
+.primary_light_blue #main,
+.primary_light_blue #main #breadcrumbs a,
+.primary_light_blue #bottom,
+.primary_light_blue #bottom .copyright,
+.primary_light_blue .divider-dashed, 
+.primary_light_blue .divider-solid,
+.primary_light_blue .tb-tabs-framed .tab-nav ul li a,
+.primary_light_blue .tb-tabs-framed .tab-content,
+.primary_light_blue .tb-tabs-open .tab-content,
+.primary_light_blue article,
+.primary_light_blue #respond,
+.primary_light_blue .fixed-sidebar .widget .widget-inner,
+.primary_light_blue .element-content .element-inner,
+.primary_light_blue .element-post_grid .element-inner,
+.primary_light_blue .element-post_list .element-inner,
+.primary_light_blue #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_light_blue #featured .element-post_list_slider .post_list .featured-image,
+.primary_light_blue #content .element-columns .element-inner,
+.primary_light_blue #content .element-post_grid_slider .element-inner,
+.primary_light_blue #content .element-post_list_slider .element-inner,
+.primary_light_blue #content .element-slider-standard .element-inner,
+.primary_light_blue #content .element-slogan .element-inner,
+.primary_light_blue #content .element-tweet .element-inner,
+.primary_light_blue #comments .comment-body,
+.primary_light_blue .pagination a,
+.primary_light_blue .pagination .current,
+.primary_light_blue #comments ul.children,
+.primary_light_blue #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #adc1df;
+}
+body.primary_light_blue,
+.primary_light_blue #branding .header_logo .tb-text-logo,
+.primary_light_blue #access li a,
+.primary_light_blue .pagination a,
+.primary_light_blue .pagination a:hover,
+.primary_light_blue #bottom a:hover,
+.primary_light_blue #commentform input[type="submit"],
+.primary_light_blue .tb-tabs-open .tab-nav ul li.active a,
+.primary_light_blue .tb-tabs-open .tab-nav ul li a:hover,
+.primary_light_blue #featured .entry-content {
+	/* Text Color */
+	color: #505050;
+}
+.primary_light_blue #main #breadcrumbs a,
+.primary_light_blue #bottom a,
+.primary_light_blue #featured .entry-meta a,
+.primary_light_blue .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.primary_light_blue #featured .featured-entry-title .entry-title,
+.primary_light_blue #featured .featured-entry-title .entry-title a,
+.primary_light_blue #featured .featured-entry-title .tagline,
+.primary_light_blue #featured .featured-entry-title .entry-meta,
+.primary_light_blue #featured .featured-entry-title .entry-meta a:hover,
+.primary_light_blue #featured .element-post_grid_slider .entry-title a,
+.primary_light_blue #featured .element-post_list_slider .entry-title a,
+.primary_light_blue #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #425568;
+}
+.primary_light_orange .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Light Orange */
+.primary_light_orange #featured {
+	background-image: url(../images/colors/light_orange/featured-bg.png);
+}
+.primary_light_orange #featured .slider_is_last .secondary-bg,
+.primary_light_orange #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/light_orange/featured-secondary-bg.png);
+}
+.primary_light_orange #main {
+	background-image: url(../images/colors/light_orange/main-bg.png);
+}
+.primary_light_orange #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/light_orange/slider-nav.png);
+}
+.primary_light_orange #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-dark.png);
+}
+.primary_light_orange #access li.home a,
+.primary_light_orange #main #breadcrumbs .home-link {
+	background-image: url(../images/home-505050.png);
+}
+.primary_light_orange #access li a > .sf-sub-indicator {
+	background-image: url(../images/sf-arrows-505050.png);
+}
+.primary_light_orange #bottom .widget ul li a,
+.primary_light_orange .widget-area-collapsible .widget ul li a {
+	border-color: #505050;
+}
+.primary_light_orange #featured .standard-slider-wrapper .prev, 
+.primary_light_orange #featured .standard-slider-wrapper .next, 
+.primary_light_orange #featured .standard-slider-wrapper .pause, 
+.primary_light_orange #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+body.primary_light_orange,
+.primary_light_orange #top,
+.primary_light_orange #main,
+.primary_light_orange .pagination a,
+.primary_light_orange #access ul ul,
+.primary_light_orange #bottom,
+.primary_light_orange #bottom .copyright span,
+.primary_light_orange #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #f4b181;
+}
+.primary_light_orange #access li a:hover,
+.primary_light_orange .pagination a:hover,
+.primary_light_orange .pagination .current,
+.primary_light_orange #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #e5a475;
+}
+.primary_light_orange #featured,
+.primary_light_orange #access,
+.primary_light_orange #access ul ul,
+.primary_light_orange #access li,
+.primary_light_orange #featured .standard-slider-wrapper .slides-inner,
+.primary_light_orange #main,
+.primary_light_orange #main #breadcrumbs a,
+.primary_light_orange #bottom,
+.primary_light_orange #bottom .copyright,
+.primary_light_orange .divider-dashed, 
+.primary_light_orange .divider-solid,
+.primary_light_orange .tb-tabs-framed .tab-nav ul li a,
+.primary_light_orange .tb-tabs-framed .tab-content,
+.primary_light_orange .tb-tabs-open .tab-content,
+.primary_light_orange article,
+.primary_light_orange #respond,
+.primary_light_orange .fixed-sidebar .widget .widget-inner,
+.primary_light_orange .element-content .element-inner,
+.primary_light_orange .element-post_grid .element-inner,
+.primary_light_orange .element-post_list .element-inner,
+.primary_light_orange #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_light_orange #featured .element-post_list_slider .post_list .featured-image,
+.primary_light_orange #content .element-columns .element-inner,
+.primary_light_orange #content .element-post_grid_slider .element-inner,
+.primary_light_orange #content .element-post_list_slider .element-inner,
+.primary_light_orange #content .element-slider-standard .element-inner,
+.primary_light_orange #content .element-slogan .element-inner,
+.primary_light_orange #content .element-tweet .element-inner,
+.primary_light_orange #comments .comment-body,
+.primary_light_orange .pagination a,
+.primary_light_orange .pagination .current,
+.primary_light_orange #comments ul.children,
+.primary_light_orange #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #d4834a;
+}
+body.primary_light_orange,
+.primary_light_orange #branding .header_logo .tb-text-logo,
+.primary_light_orange #access li a,
+.primary_light_orange .pagination a,
+.primary_light_orange .pagination a:hover,
+.primary_light_orange #bottom a:hover,
+.primary_light_orange #commentform input[type="submit"],
+.primary_light_orange .tb-tabs-open .tab-nav ul li.active a,
+.primary_light_orange .tb-tabs-open .tab-nav ul li a:hover,
+.primary_light_orange #featured .entry-content {
+	/* Text Color */
+	color: #505050;
+}
+.primary_light_orange #main #breadcrumbs a,
+.primary_light_orange #bottom a,
+.primary_light_orange #featured .entry-meta a,
+.primary_light_orange .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.primary_light_orange #featured .featured-entry-title .entry-title,
+.primary_light_orange #featured .featured-entry-title .entry-title a,
+.primary_light_orange #featured .featured-entry-title .tagline,
+.primary_light_orange #featured .featured-entry-title .entry-meta,
+.primary_light_orange #featured .featured-entry-title .entry-meta a:hover,
+.primary_light_orange #featured .element-post_grid_slider .entry-title a,
+.primary_light_orange #featured .element-post_list_slider .entry-title a,
+.primary_light_orange #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #74401a;
+}
+.primary_light_orange .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Midnight Blue */
+.primary_midnight_blue #featured {
+	background-image: url(../images/colors/midnight_blue/featured-bg.png);
+}
+.primary_midnight_blue #featured .slider_is_last .secondary-bg,
+.primary_midnight_blue #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/midnight_blue/featured-secondary-bg.png);
+}
+.primary_midnight_blue #main {
+	background-image: url(../images/colors/midnight_blue/main-bg.png);
+}
+.primary_midnight_blue #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/midnight_blue/slider-nav.png);
+}
+.primary_midnight_blue #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_midnight_blue #access li.home a,
+.primary_midnight_blue #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_midnight_blue #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_midnight_blue #featured .standard-slider-wrapper .prev, 
+.primary_midnight_blue #featured .standard-slider-wrapper .next, 
+.primary_midnight_blue #featured .standard-slider-wrapper .pause, 
+.primary_midnight_blue #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_midnight_blue,
+.primary_midnight_blue #top,
+.primary_midnight_blue #main,
+.primary_midnight_blue .pagination a,
+.primary_midnight_blue #access ul ul,
+.primary_midnight_blue #bottom,
+.primary_midnight_blue #bottom .copyright span,
+.primary_midnight_blue #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #384c6c;
+}
+.primary_midnight_blue #access li a:hover,
+.primary_midnight_blue .pagination a:hover,
+.primary_midnight_blue .pagination .current,
+.primary_midnight_blue #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #2e415f;
+}
+.primary_midnight_blue #featured,
+.primary_midnight_blue #access,
+.primary_midnight_blue #access ul ul,
+.primary_midnight_blue #access li,
+.primary_midnight_blue #featured .standard-slider-wrapper .slides-inner,
+.primary_midnight_blue #main,
+.primary_midnight_blue #main #breadcrumbs a,
+.primary_midnight_blue #bottom,
+.primary_midnight_blue #bottom .copyright,
+.primary_midnight_blue .divider-dashed, 
+.primary_midnight_blue .divider-solid,
+.primary_midnight_blue .tb-tabs-framed .tab-nav ul li a,
+.primary_midnight_blue .tb-tabs-framed .tab-content,
+.primary_midnight_blue .tb-tabs-open .tab-content,
+.primary_midnight_blue article,
+.primary_midnight_blue #respond,
+.primary_midnight_blue .fixed-sidebar .widget .widget-inner,
+.primary_midnight_blue .element-content .element-inner,
+.primary_midnight_blue .element-post_grid .element-inner,
+.primary_midnight_blue .element-post_list .element-inner,
+.primary_midnight_blue #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_midnight_blue #featured .element-post_list_slider .post_list .featured-image,
+.primary_midnight_blue #content .element-columns .element-inner,
+.primary_midnight_blue #content .element-post_grid_slider .element-inner,
+.primary_midnight_blue #content .element-post_list_slider .element-inner,
+.primary_midnight_blue #content .element-slider-standard .element-inner,
+.primary_midnight_blue #content .element-slogan .element-inner,
+.primary_midnight_blue #content .element-tweet .element-inner,
+.primary_midnight_blue #comments .comment-body,
+.primary_midnight_blue .pagination a,
+.primary_midnight_blue .pagination .current,
+.primary_midnight_blue #comments ul.children,
+.primary_midnight_blue #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #202e45;
+}
+body.primary_midnight_blue,
+.primary_midnight_blue #branding .header_logo .tb-text-logo,
+.primary_midnight_blue #access li a,
+.primary_midnight_blue .pagination a,
+.primary_midnight_blue .pagination a:hover,
+.primary_midnight_blue #bottom a:hover,
+.primary_midnight_blue #commentform input[type="submit"],
+.primary_midnight_blue .tb-tabs-open .tab-nav ul li.active a,
+.primary_midnight_blue .tb-tabs-open .tab-nav ul li a:hover,
+.primary_midnight_blue #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_midnight_blue #main #breadcrumbs a,
+.primary_midnight_blue #bottom a,
+.primary_midnight_blue #featured .entry-meta a {
+	/* Faint Text Color */
+	color: #dddddd;
+}
+.primary_midnight_blue #featured .featured-entry-title .entry-title,
+.primary_midnight_blue #featured .featured-entry-title .entry-title a,
+.primary_midnight_blue #featured .featured-entry-title .tagline,
+.primary_midnight_blue #featured .featured-entry-title .entry-meta,
+.primary_midnight_blue #featured .featured-entry-title .entry-meta a:hover,
+.primary_midnight_blue #featured .element-post_grid_slider .entry-title a,
+.primary_midnight_blue #featured .element-post_list_slider .entry-title a,
+.primary_midnight_blue #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+}
+.primary_midnight_blue .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Mint */
+.primary_mint #featured {
+	background-image: url(../images/colors/mint/featured-bg.png);
+}
+.primary_mint #featured .slider_is_last .secondary-bg,
+.primary_mint #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/mint/featured-secondary-bg.png);
+}
+.primary_mint #main {
+	background-image: url(../images/colors/mint/main-bg.png);
+}
+.primary_mint #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/mint/slider-nav.png);
+}
+.primary_mint #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-dark.png);
+}
+.primary_mint #access li.home a,
+.primary_mint #main #breadcrumbs .home-link {
+	background-image: url(../images/home-505050.png);
+}
+.primary_mint #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-505050.png);
+}
+.primary_mint #bottom .widget ul li a,
+.primary_mint .widget-area-collapsible .widget ul li a {
+	border-color: #505050;
+}
+.primary_mint #featured .standard-slider-wrapper .prev, 
+.primary_mint #featured .standard-slider-wrapper .next, 
+.primary_mint #featured .standard-slider-wrapper .pause, 
+.primary_mint #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+body.primary_mint,
+.primary_mint #top,
+.primary_mint #main,
+.primary_mint .pagination a,
+.primary_mint #access ul ul,
+.primary_mint #bottom,
+.primary_mint #bottom .copyright span,
+.primary_mint #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #bfe4d9;
+}
+.primary_mint #access li a:hover,
+.primary_mint .pagination a:hover,
+.primary_mint .pagination .current,
+.primary_mint #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #add9cb;
+}
+.primary_mint #featured,
+.primary_mint #access,
+.primary_mint #access ul ul,
+.primary_mint #access li,
+.primary_mint #featured .standard-slider-wrapper .slides-inner,
+.primary_mint #main,
+.primary_mint #main #breadcrumbs a,
+.primary_mint #bottom,
+.primary_mint #bottom .copyright,
+.primary_mint .divider-dashed, 
+.primary_mint .divider-solid,
+.primary_mint .tb-tabs-framed .tab-nav ul li a,
+.primary_mint .tb-tabs-framed .tab-content,
+.primary_mint .tb-tabs-open .tab-content,
+.primary_mint article,
+.primary_mint #respond,
+.primary_mint .fixed-sidebar .widget .widget-inner,
+.primary_mint .element-content .element-inner,
+.primary_mint .element-post_grid .element-inner,
+.primary_mint .element-post_list .element-inner,
+.primary_mint #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_mint #featured .element-post_list_slider .post_list .featured-image,
+.primary_mint #content .element-columns .element-inner,
+.primary_mint #content .element-post_grid_slider .element-inner,
+.primary_mint #content .element-post_list_slider .element-inner,
+.primary_mint #content .element-slider-standard .element-inner,
+.primary_mint #content .element-slogan .element-inner,
+.primary_mint #content .element-tweet .element-inner,
+.primary_mint #comments .comment-body,
+.primary_mint .pagination a,
+.primary_mint .pagination .current,
+.primary_mint #comments ul.children,
+.primary_mint #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #92cbb9;
+}
+body.primary_mint,
+.primary_mint #branding .header_logo .tb-text-logo,
+.primary_mint #access li a,
+.primary_mint .pagination a,
+.primary_mint .pagination a:hover,
+.primary_mint #bottom a:hover,
+.primary_mint #commentform input[type="submit"],
+.primary_mint .tb-tabs-open .tab-nav ul li.active a,
+.primary_mint .tb-tabs-open .tab-nav ul li a:hover,
+.primary_mint #featured .entry-content {
+	/* Text Color */
+	color: #505050;
+}
+.primary_mint #main #breadcrumbs a,
+.primary_mint #bottom a,
+.primary_mint #featured .entry-meta a,
+.primary_mint .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.primary_mint #featured .featured-entry-title .entry-title,
+.primary_mint #featured .featured-entry-title .entry-title a,
+.primary_mint #featured .featured-entry-title .tagline,
+.primary_mint #featured .featured-entry-title .entry-meta,
+.primary_mint #featured .featured-entry-title .entry-meta a:hover,
+.primary_mint #featured .element-post_grid_slider .entry-title a,
+.primary_mint #featured .element-post_list_slider .entry-title a,
+.primary_mint #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #1e473a;
+}
+.primary_mint .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Orange */
+.primary_orange #featured {
+	background-image: url(../images/colors/orange/featured-bg.png);
+}
+.primary_orange #featured .slider_is_last .secondary-bg,
+.primary_orange #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/orange/featured-secondary-bg.png);
+}
+.primary_orange #main {
+	background-image: url(../images/colors/orange/main-bg.png);
+}
+.primary_orange #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/orange/slider-nav.png);
+}
+.primary_orange #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_orange #access li.home a,
+.primary_orange #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_orange #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_orange #featured .standard-slider-wrapper .prev, 
+.primary_orange #featured .standard-slider-wrapper .next, 
+.primary_orange #featured .standard-slider-wrapper .pause, 
+.primary_orange #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_orange,
+.primary_orange #top,
+.primary_orange #main,
+.primary_orange .pagination a,
+.primary_orange #access ul ul,
+.primary_orange #bottom,
+.primary_orange #bottom .copyright span,
+.primary_orange #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #cc4d29;
+}
+.primary_orange #access li a:hover,
+.primary_orange .pagination a:hover,
+.primary_orange .pagination .current,
+.primary_orange #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #b74525;
+}
+.primary_orange #featured,
+.primary_orange #access,
+.primary_orange #access ul ul,
+.primary_orange #access li,
+.primary_orange #featured .standard-slider-wrapper .slides-inner,
+.primary_orange #main,
+.primary_orange #main #breadcrumbs a,
+.primary_orange #bottom,
+.primary_orange #bottom .copyright,
+.primary_orange .divider-dashed, 
+.primary_orange .divider-solid,
+.primary_orange .tb-tabs-framed .tab-nav ul li a,
+.primary_orange .tb-tabs-framed .tab-content,
+.primary_orange .tb-tabs-open .tab-content,
+.primary_orange article,
+.primary_orange #respond,
+.primary_orange .fixed-sidebar .widget .widget-inner,
+.primary_orange .element-content .element-inner,
+.primary_orange .element-post_grid .element-inner,
+.primary_orange .element-post_list .element-inner,
+.primary_orange #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_orange #featured .element-post_list_slider .post_list .featured-image,
+.primary_orange #content .element-columns .element-inner,
+.primary_orange #content .element-post_grid_slider .element-inner,
+.primary_orange #content .element-post_list_slider .element-inner,
+.primary_orange #content .element-slider-standard .element-inner,
+.primary_orange #content .element-slogan .element-inner,
+.primary_orange #content .element-tweet .element-inner,
+.primary_orange #comments .comment-body,
+.primary_orange .pagination a,
+.primary_orange .pagination .current,
+.primary_orange #comments ul.children,
+.primary_orange #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #8a2e13;
+}
+body.primary_orange,
+.primary_orange #branding .header_logo .tb-text-logo,
+.primary_orange #access li a,
+.primary_orange .pagination a,
+.primary_orange .pagination a:hover,
+.primary_orange #bottom a:hover,
+.primary_orange #commentform input[type="submit"],
+.primary_orange .tb-tabs-open .tab-nav ul li.active a,
+.primary_orange .tb-tabs-open .tab-nav ul li a:hover,
+.primary_orange #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_orange #main #breadcrumbs a,
+.primary_orange #bottom a,
+.primary_orange #featured .entry-meta a,
+.primary_orange .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.primary_orange #featured .featured-entry-title .entry-title,
+.primary_orange #featured .featured-entry-title .entry-title a,
+.primary_orange #featured .featured-entry-title .tagline,
+.primary_orange #featured .featured-entry-title .entry-meta,
+.primary_orange #featured .featured-entry-title .entry-meta a:hover,
+.primary_orange #featured .element-post_grid_slider .entry-title a,
+.primary_orange #featured .element-post_list_slider .entry-title a,
+.primary_orange #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #642412;
+}
+.primary_orange .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Purple */
+.primary_purple #featured {
+	background-image: url(../images/colors/purple/featured-bg.png);
+}
+.primary_purple #featured .slider_is_last .secondary-bg,
+.primary_purple #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/purple/featured-secondary-bg.png)
+}
+.primary_purple #main {
+	background-image: url(../images/colors/purple/main-bg.png);
+}
+.primary_purple #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/purple/slider-nav.png);
+}
+.primary_purple #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_purple #access li.home a,
+.primary_purple #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_purple #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_purple #featured .standard-slider-wrapper .prev, 
+.primary_purple #featured .standard-slider-wrapper .next, 
+.primary_purple #featured .standard-slider-wrapper .pause, 
+.primary_purple #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_purple,
+.primary_purple #top,
+.primary_purple #main,
+.primary_purple .pagination a,
+.primary_purple #access ul ul,
+.primary_purple #bottom,
+.primary_purple #bottom .copyright span,
+.primary_purple #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #70779c;
+}
+.primary_purple #access li a:hover,
+.primary_purple .pagination a:hover,
+.primary_purple .pagination .current,
+.primary_purple #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #646b8f;
+}
+.primary_purple #featured,
+.primary_purple #access,
+.primary_purple #access ul ul,
+.primary_purple #access li,
+.primary_purple #featured .standard-slider-wrapper .slides-inner,
+.primary_purple #main,
+.primary_purple #main #breadcrumbs a,
+.primary_purple #bottom,
+.primary_purple #bottom .copyright,
+.primary_purple .divider-dashed, 
+.primary_purple .divider-solid,
+.primary_purple .tb-tabs-framed .tab-nav ul li a,
+.primary_purple .tb-tabs-framed .tab-content,
+.primary_purple .tb-tabs-open .tab-content,
+.primary_purple article,
+.primary_purple #respond,
+.primary_purple .fixed-sidebar .widget .widget-inner,
+.primary_purple .element-content .element-inner,
+.primary_purple .element-post_grid .element-inner,
+.primary_purple .element-post_list .element-inner,
+.primary_purple #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_purple #featured .element-post_list_slider .post_list .featured-image,
+.primary_purple #content .element-columns .element-inner,
+.primary_purple #content .element-post_grid_slider .element-inner,
+.primary_purple #content .element-post_list_slider .element-inner,
+.primary_purple #content .element-slider-standard .element-inner,
+.primary_purple #content .element-slogan .element-inner,
+.primary_purple #content .element-tweet .element-inner,
+.primary_purple #comments .comment-body,
+.primary_purple .pagination a,
+.primary_purple .pagination .current,
+.primary_purple #comments ul.children,
+.primary_purple #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #4a4f71;
+}
+body.primary_purple,
+.primary_purple #branding .header_logo .tb-text-logo,
+.primary_purple #access li a,
+.primary_purple .pagination a,
+.primary_purple .pagination a:hover,
+.primary_purple #bottom a:hover,
+.primary_purple #commentform input[type="submit"],
+.primary_purple .tb-tabs-open .tab-nav ul li.active a,
+.primary_purple .tb-tabs-open .tab-nav ul li a:hover,
+.primary_purple #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_purple #main #breadcrumbs a,
+.primary_purple #bottom a,
+.primary_purple #featured .entry-meta a,
+.primary_purple .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.primary_purple #featured .featured-entry-title .entry-title,
+.primary_purple #featured .featured-entry-title .entry-title a,
+.primary_purple #featured .featured-entry-title .tagline,
+.primary_purple #featured .featured-entry-title .entry-meta,
+.primary_purple #featured .featured-entry-title .entry-meta a:hover,
+.primary_purple #featured .element-post_grid_slider .entry-title a,
+.primary_purple #featured .element-post_list_slider .entry-title a,
+.primary_purple #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #282b3b;
+}
+.primary_purple .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Red */
+.primary_red #featured {
+	background-image: url(../images/colors/red/featured-bg.png);
+}
+.primary_red #featured .slider_is_last .secondary-bg,
+.primary_red #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/red/featured-secondary-bg.png);
+}
+.primary_red #main {
+	background-image: url(../images/colors/red/main-bg.png);
+}
+.primary_red #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/red/slider-nav.png);
+}
+.primary_red #branding .themeblvd-contact-bar li a {
+	 background-image: url(../../framework/frontend/assets/images/parts/social-media-light.png);
+}
+.primary_red #access li.home a,
+.primary_red #main #breadcrumbs .home-link {
+	background-image: url(../images/home-ffffff.png);
+}
+.primary_red #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-ffffff.png);
+}
+.primary_red #featured .standard-slider-wrapper .prev, 
+.primary_red #featured .standard-slider-wrapper .next, 
+.primary_red #featured .standard-slider-wrapper .pause, 
+.primary_red #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+body.primary_red,
+.primary_red #top,
+.primary_red #main,
+.primary_red .pagination a,
+.primary_red #access ul ul,
+.primary_red #bottom,
+.primary_red #bottom .copyright span,
+.primary_red #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #d46053;
+}
+.primary_red #access li a:hover,
+.primary_red .pagination a:hover,
+.primary_red .pagination .current,
+.primary_red #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #c5594c;
+}
+.primary_red #featured,
+.primary_red #access,
+.primary_red #access ul ul,
+.primary_red #access li,
+.primary_red #featured .standard-slider-wrapper .slides-inner,
+.primary_red #main,
+.primary_red #main #breadcrumbs a,
+.primary_red #bottom,
+.primary_red #bottom .copyright,
+.primary_red .divider-dashed, 
+.primary_red .divider-solid,
+.primary_red .tb-tabs-framed .tab-nav ul li a,
+.primary_red .tb-tabs-framed .tab-content,
+.primary_red .tb-tabs-open .tab-content,
+.primary_red article,
+.primary_red #respond,
+.primary_red .fixed-sidebar .widget .widget-inner,
+.primary_red .element-content .element-inner,
+.primary_red .element-post_grid .element-inner,
+.primary_red .element-post_list .element-inner,
+.primary_red #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_red #featured .element-post_list_slider .post_list .featured-image,
+.primary_red #content .element-columns .element-inner,
+.primary_red #content .element-post_grid_slider .element-inner,
+.primary_red #content .element-post_list_slider .element-inner,
+.primary_red #content .element-slider-standard .element-inner,
+.primary_red #content .element-slogan .element-inner,
+.primary_red #content .element-tweet .element-inner,
+.primary_red #comments .comment-body,
+.primary_red .pagination a,
+.primary_red .pagination .current,
+.primary_red #comments ul.children,
+.primary_red #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #a03428;
+}
+body.primary_red,
+.primary_red #branding .header_logo .tb-text-logo,
+.primary_red #access li a,
+.primary_red .pagination a,
+.primary_red .pagination a:hover,
+.primary_red #bottom a:hover,
+.primary_red #commentform input[type="submit"],
+.primary_red .tb-tabs-open .tab-nav ul li.active a,
+.primary_red .tb-tabs-open .tab-nav ul li a:hover,
+.primary_red #featured .entry-content {
+	/* Text Color */
+	color: #ffffff;
+}
+.primary_red #main #breadcrumbs a,
+.primary_red #bottom a,
+.primary_red #featured .entry-meta a,
+.primary_red .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.primary_red #featured .featured-entry-title .entry-title,
+.primary_red #featured .featured-entry-title .entry-title a,
+.primary_red #featured .featured-entry-title .tagline,
+.primary_red #featured .featured-entry-title .entry-meta,
+.primary_red #featured .featured-entry-title .entry-meta a:hover,
+.primary_red #featured .element-post_grid_slider .entry-title a,
+.primary_red #featured .element-post_list_slider .entry-title a,
+.primary_red #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #642019;
+}
+.primary_red .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* Tan */
+.primary_tan #featured {
+	background-image: url(../images/colors/tan/featured-bg.png);
+}
+.primary_tan #featured .slider_is_last .secondary-bg,
+.primary_tan #featured .has_blog_featured .secondary-bg {
+	background-image: url(../images/colors/tan/featured-secondary-bg.png)
+}
+.primary_tan #main {
+	background-image: url(../images/colors/tan/main-bg.png);
+}
+.primary_tan #featured .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/tan/slider-nav.png);
+}
+.primary_tan #branding .themeblvd-contact-bar li a {
+	background-image: url(../../framework/frontend/assets/images/parts/social-media-dark.png);
+}
+.primary_tan #access li.home a,
+.primary_tan #main #breadcrumbs .home-link {
+	background-image: url(../images/home-505050.png);
+}
+.primary_tan #access li a > .sf-sub-indicator {
+	background-image:url(../images/sf-arrows-505050.png);
+}
+.primary_tan #bottom .widget ul li a,
+.primary_tan .widget-area-collapsible .widget ul li a {
+	border-color: #505050;
+}
+.primary_tan #featured .standard-slider-wrapper .prev, 
+.primary_tan #featured .standard-slider-wrapper .next, 
+.primary_tan #featured .standard-slider-wrapper .pause, 
+.primary_tan #featured .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+body.primary_tan,
+.primary_tan #top,
+.primary_tan #main,
+.primary_tan .pagination a,
+.primary_tan #access ul ul,
+.primary_tan #bottom,
+.primary_tan #bottom .copyright span,
+.primary_tan #featured .standard-slider-wrapper .slider-inner {
+	/* Background Color */
+	background-color: #e8dbc3;
+}
+.primary_tan #access li a:hover,
+.primary_tan .pagination a:hover,
+.primary_tan .pagination .current,
+.primary_tan #commentform input[type="submit"] {
+	/* Hover Color */
+	background-color: #dacdb6;
+}
+.primary_tan #featured,
+.primary_tan #access,
+.primary_tan #access ul ul,
+.primary_tan #access li,
+.primary_tan #featured .standard-slider-wrapper .slides-inner,
+.primary_tan #main,
+.primary_tan #main #breadcrumbs a,
+.primary_tan #bottom,
+.primary_tan #bottom .copyright,
+.primary_tan .divider-dashed, 
+.primary_tan .divider-solid,
+.primary_tan .tb-tabs-framed .tab-nav ul li a,
+.primary_tan .tb-tabs-framed .tab-content,
+.primary_tan .tb-tabs-open .tab-content,
+.primary_tan article,
+.primary_tan #respond,
+.primary_tan .fixed-sidebar .widget .widget-inner,
+.primary_tan .element-content .element-inner,
+.primary_tan .element-post_grid .element-inner,
+.primary_tan .element-post_list .element-inner,
+.primary_tan #featured .element-post_grid_slider .post_grid .featured-image,
+.primary_tan #featured .element-post_list_slider .post_list .featured-image,
+.primary_tan #content .element-columns .element-inner,
+.primary_tan #content .element-post_grid_slider .element-inner,
+.primary_tan #content .element-post_list_slider .element-inner,
+.primary_tan #content .element-slider-standard .element-inner,
+.primary_tan #content .element-slogan .element-inner,
+.primary_tan #content .element-tweet .element-inner,
+.primary_tan #comments .comment-body,
+.primary_tan .pagination a,
+.primary_tan .pagination .current,
+.primary_tan #comments ul.children,
+.primary_tan #commentform input[type="submit"] {
+	/* Border Color */
+	border-color: #d1c09e;
+}
+body.primary_tan,
+.primary_tan #branding .header_logo .tb-text-logo,
+.primary_tan #access li a,
+.primary_tan .pagination a,
+.primary_tan .pagination a:hover,
+.primary_tan #bottom a:hover,
+.primary_tan #featured .element-post_list .element-inner,
+.primary_tan #commentform input[type="submit"],
+.primary_tan .tb-tabs-open .tab-nav ul li.active a,
+.primary_tan .tb-tabs-open .tab-nav ul li a:hover,
+.primary_tan #featured .entry-content {
+	/* Text Color */
+	color: #505050;
+}
+.primary_tan #main #breadcrumbs a,
+.primary_tan #bottom a,
+.primary_tan #featured .entry-meta a,
+.primary_tan .tb-tabs-open .tab-nav ul li a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.primary_tan #featured .featured-entry-title .entry-title,
+.primary_tan #featured .featured-entry-title .entry-title a,
+.primary_tan #featured .featured-entry-title .tagline,
+.primary_tan #featured .featured-entry-title .entry-meta,
+.primary_tan #featured .featured-entry-title .entry-meta a:hover,
+.primary_tan #featured .element-post_grid_slider .entry-title a,
+.primary_tan #featured .element-post_list_slider .entry-title a,
+.primary_tan #comments-title {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #53452b;
+}
+.primary_tan .tb-tabs-open .tab-content {
+	border-top-color: #ffffff;
+}
+
+/* =Content Colors
+-------------------------------------------------------------- */
+
+/* Blue */
+.content_blue #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/blue/slider-nav.png);
+}
+.content_blue .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_blue .entry-content .themeblvd-search input[type="submit"],
+.content_blue .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_blue #content .standard-slider-wrapper .prev, 
+.content_blue #content .standard-slider-wrapper .next, 
+.content_blue #content .standard-slider-wrapper .pause, 
+.content_blue #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_blue .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_blue .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_blue article,
+.content_blue #respond,
+.content_blue .fixed-sidebar .widget .widget-inner,
+.content_blue .element-content .element-inner,
+.content_blue .element-post_grid .element-inner,
+.content_blue .element-post_list .element-inner,
+.content_blue #content .element-columns .element-inner,
+.content_blue #content .element-post_grid_slider .element-inner,
+.content_blue #content .element-post_list_slider .element-inner,
+.content_blue #content .element-slider-standard .element-inner,
+.content_blue #content .element-slogan .element-inner,
+.content_blue #content .element-tweet .element-inner,
+.content_blue #comments .comment-body,
+.content_blue .tb-tabs-framed .tab-nav ul li a,
+.content_blue .tb-tabs-open .tab-content,
+.content_blue input,
+.content_blue input[type="submit"]:hover,
+.content_blue textarea,
+.content_blue select {
+	/* Background Color */
+	background-color: #8fa9bb;
+}
+.content_blue pre,
+.content_blue .tb-tabs-framed .tab-nav ul li.active a,
+.content_blue .tb-tabs-framed .tab-content,
+.content_blue .tb-toggle a.toggle-trigger:hover,
+.content_blue .tb-toggle a.active,
+.content_blue .entry-content .themeblvd-search fieldset,
+.content_blue .widget-area-fixed .themeblvd-search fieldset,
+.content_blue #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #8098a9;
+}
+.content_blue .featured-image,
+.content_blue .element-post_grid .post_grid .featured-image,
+.content_blue .element-post_grid_slider .post_grid .featured-image,
+.content_blue img.pretty,
+.content_blue #wrapper .gallery a img,
+.content_blue #content .element .element .element-inner,
+.content_blue #content article .element .element-inner,
+.content_blue .entry-meta,
+.content_blue .wp-caption,
+.content_blue .entry-content td,
+.content_blue .comment-content td,
+.content_blue #content .element-slider-standard .slides,
+.content_blue #content .element-post_grid_slider .slides,
+.content_blue #content .element-post_list_slider .slides,
+.content_blue .element .element .divider-dashed,
+.content_blue .element .element .divider-solid,
+.content_blue .tb-tabs-open .tab-content,
+.content_blue .tb-tabs-framed .tab-nav,
+.content_blue .tb-tabs-framed .tab-nav ul li a,
+.content_blue .tb-tabs-framed .tab-content,
+.content_blue .tb-toggle,
+.content_blue .tb-toggle:last-of-type,
+.content_blue .tb-toggle a.active,
+.content_blue article .divider-dashed,
+.content_blue article .divider-solid,
+.content_blue input,
+.content_blue input[type="submit"]:hover,
+.content_blue textarea,
+.content_blue select,
+.content_blue .entry-content .themeblvd-search fieldset,
+.content_blue .widget-area-fixed .themeblvd-search fieldset,
+.content_blue #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #718999;
+}
+.content_blue .entry-meta,
+.content_blue .lead-link:hover,
+.content_blue .tb-tabs-framed .tab-nav ul li a,
+.content_blue article .tb-tabs-open .tab-nav ul li a,
+.content_blue .element .element .tb-tabs-open .tab-nav ul li a,
+.content_blue #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.content_blue article,
+.content_blue #respond,
+.content_blue .fixed-sidebar .widget .widget-inner,
+.content_blue .element-content .element-inner,
+.content_blue .element-post_grid .element-inner,
+.content_blue .element-post_list .element-inner,
+.content_blue #content .element-columns .element-inner,
+.content_blue #content .element-post_grid_slider .element-inner,
+.content_blue #content .element-post_list_slider .element-inner,
+.content_blue #content .element-slider-standard .element-inner,
+.content_blue #content .element-slogan .element-inner,
+.content_blue #content .element-tweet .element-inner,
+.content_blue .tb-tabs-framed .tab-content,
+.content_blue .tb-tabs-framed .tab-nav ul li.active a,
+.content_blue article .tb-tabs-open .tab-nav ul li.active a,
+.content_blue .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_blue #comments .comment-body,
+.content_blue article .entry-title,
+.content_blue article .entry-title a,
+.content_blue #content .element-post_grid_slider article .entry-title,
+.content_blue #content .element-post_grid_slider article .entry-title a,
+.content_blue .tb-tabs-open .tab-content,
+.content_blue .entry-meta a,
+.content_blue .lead-link,
+.content_blue .entry-content th,
+.content_blue .comment-content th,
+.content_blue input,
+.content_blue input[type="submit"]:hover,
+.content_blue textarea,
+.content_blue select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_blue .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #8098a9; /* Hover color */
+}
+
+/* Brown */
+.content_brown #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/brown/slider-nav.png);
+}
+.content_brown .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_brown .entry-content .themeblvd-search input[type="submit"],
+.content_brown .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_brown #content .standard-slider-wrapper .prev, 
+.content_brown #content .standard-slider-wrapper .next, 
+.content_brown #content .standard-slider-wrapper .pause, 
+.content_brown #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_brown .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_brown .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_brown article,
+.content_brown #respond,
+.content_brown .fixed-sidebar .widget .widget-inner,
+.content_brown .element-content .element-inner,
+.content_brown .element-post_grid .element-inner,
+.content_brown .element-post_list .element-inner,
+.content_brown #content .element-columns .element-inner,
+.content_brown #content .element-post_grid_slider .element-inner,
+.content_brown #content .element-post_list_slider .element-inner,
+.content_brown #content .element-slider-standard .element-inner,
+.content_brown #content .element-slogan .element-inner,
+.content_brown #content .element-tweet .element-inner,
+.content_brown #comments .comment-body,
+.content_brown .tb-tabs-framed .tab-nav ul li a,
+.content_brown .tb-tabs-open .tab-content,
+.content_brown input,
+.content_brown input[type="submit"]:hover,
+.content_brown textarea,
+.content_brown select {
+	/* Background Color */
+	background-color: #645248;
+}
+.content_brown pre,
+.content_brown .tb-tabs-framed .tab-nav ul li.active a,
+.content_brown .tb-tabs-framed .tab-content,
+.content_brown .tb-toggle a.toggle-trigger:hover,
+.content_brown .tb-toggle a.active,
+.content_brown .entry-content .themeblvd-search fieldset,
+.content_brown .widget-area-fixed .themeblvd-search fieldset,
+.content_brown #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #57473d;
+}
+.content_brown .featured-image,
+.content_brown .element-post_grid .post_grid .featured-image,
+.content_brown .element-post_grid_slider .post_grid .featured-image,
+.content_brown img.pretty,
+.content_brown #wrapper .gallery a img,
+.content_brown #content .element .element .element-inner,
+.content_brown #content article .element .element-inner,
+.content_brown .entry-meta,
+.content_brown .wp-caption,
+.content_brown .entry-content td,
+.content_brown .comment-content td,
+.content_brown #content .element-slider-standard .slides,
+.content_brown #content .element-post_grid_slider .slides,
+.content_brown #content .element-post_list_slider .slides,
+.content_brown .element .element .divider-dashed,
+.content_brown .element .element .divider-solid,
+.content_brown .tb-tabs-open .tab-content,
+.content_brown .tb-tabs-framed .tab-nav,
+.content_brown .tb-tabs-framed .tab-nav ul li a,
+.content_brown .tb-tabs-framed .tab-content,
+.content_brown .tb-toggle,
+.content_brown .tb-toggle:last-of-type,
+.content_brown .tb-toggle a.active,
+.content_brown article .divider-dashed,
+.content_brown article .divider-solid,
+.content_brown input,
+.content_brown input[type="submit"]:hover,
+.content_brown textarea,
+.content_brown select,
+.content_brown .entry-content .themeblvd-search fieldset,
+.content_brown .widget-area-fixed .themeblvd-search fieldset,
+.content_brown #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #453831;
+}
+.content_brown .entry-meta,
+.content_brown .lead-link:hover,
+.content_brown .tb-tabs-framed .tab-nav ul li a,
+.content_brown article .tb-tabs-open .tab-nav ul li a,
+.content_brown .element .element .tb-tabs-open .tab-nav ul li a,
+.content_brown #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.content_brown article,
+.content_brown #respond,
+.content_brown .fixed-sidebar .widget .widget-inner,
+.content_brown .element-content .element-inner,
+.content_brown .element-post_grid .element-inner,
+.content_brown .element-post_list .element-inner,
+.content_brown #content .element-columns .element-inner,
+.content_brown #content .element-post_grid_slider .element-inner,
+.content_brown #content .element-post_list_slider .element-inner,
+.content_brown #content .element-slider-standard .element-inner,
+.content_brown #content .element-slogan .element-inner,
+.content_brown #content .element-tweet .element-inner,
+.content_brown .tb-tabs-framed .tab-content,
+.content_brown .tb-tabs-framed .tab-nav ul li.active a,
+.content_brown article .tb-tabs-open .tab-nav ul li.active a,
+.content_brown .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_brown #comments .comment-body,
+.content_brown article .entry-title,
+.content_brown article .entry-title a,
+.content_brown #content .element-post_grid_slider article .entry-title,
+.content_brown #content .element-post_grid_slider article .entry-title a,
+.content_brown .tb-tabs-open .tab-content,
+.content_brown .entry-meta a,
+.content_brown .lead-link,
+.content_brown .entry-content th,
+.content_brown .comment-content th,
+.content_brown input,
+.content_brown input[type="submit"]:hover,
+.content_brown textarea,
+.content_brown select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_brown .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #57473d; /* Hover color */
+}
+
+/* Dark */
+.content_dark #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/dark/slider-nav.png);
+}
+.content_dark .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_dark .entry-content .themeblvd-search input[type="submit"],
+.content_dark .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_dark #content .standard-slider-wrapper .prev, 
+.content_dark #content .standard-slider-wrapper .next, 
+.content_dark #content .standard-slider-wrapper .pause, 
+.content_dark #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_dark .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_dark .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_dark article,
+.content_dark #respond,
+.content_dark .fixed-sidebar .widget .widget-inner,
+.content_dark .element-content .element-inner,
+.content_dark .element-post_grid .element-inner,
+.content_dark .element-post_list .element-inner,
+.content_dark #content .element-columns .element-inner,
+.content_dark #content .element-post_grid_slider .element-inner,
+.content_dark #content .element-post_list_slider .element-inner,
+.content_dark #content .element-slider-standard .element-inner,
+.content_dark #content .element-slogan .element-inner,
+.content_dark #content .element-tweet .element-inner,
+.content_dark #comments .comment-body,
+.content_dark .tb-tabs-framed .tab-nav ul li a,
+.content_dark .tb-tabs-open .tab-content,
+.content_dark input,
+.content_dark input[type="submit"]:hover,
+.content_dark textarea,
+.content_dark select {
+	/* Background Color */
+	background-color: #2e2e2e;
+}
+.content_dark pre,
+.content_dark .tb-tabs-framed .tab-nav ul li.active a,
+.content_dark .tb-tabs-framed .tab-content,
+.content_dark .tb-toggle a.toggle-trigger:hover,
+.content_dark .tb-toggle a.active,
+.content_dark .entry-content .themeblvd-search fieldset,
+.content_dark .widget-area-fixed .themeblvd-search fieldset,
+.content_dark #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #242424;
+}
+.content_dark .featured-image,
+.content_dark .element-post_grid .post_grid .featured-image,
+.content_dark .element-post_grid_slider .post_grid .featured-image,
+.content_dark img.pretty,
+.content_dark #wrapper .gallery a img,
+.content_dark #content .element .element .element-inner,
+.content_dark #content article .element .element-inner,
+.content_dark .entry-meta,
+.content_dark .wp-caption,
+.content_dark .entry-content td,
+.content_dark .comment-content td,
+.content_dark #content .element-slider-standard .slides,
+.content_dark #content .element-post_grid_slider .slides,
+.content_dark #content .element-post_list_slider .slides,
+.content_dark .element .element .divider-dashed,
+.content_dark .element .element .divider-solid,
+.content_dark .tb-tabs-open .tab-content,
+.content_dark .tb-tabs-framed .tab-nav,
+.content_dark .tb-tabs-framed .tab-nav ul li a,
+.content_dark .tb-tabs-framed .tab-content,
+.content_dark .tb-toggle,
+.content_dark .tb-toggle:last-of-type,
+.content_dark .tb-toggle a.active,
+.content_dark article .divider-dashed,
+.content_dark article .divider-solid,
+.content_dark input,
+.content_dark input[type="submit"]:hover,
+.content_dark textarea,
+.content_dark select,
+.content_dark .entry-content .themeblvd-search fieldset,
+.content_dark .widget-area-fixed .themeblvd-search fieldset,
+.content_dark #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #000000;
+}
+.content_dark .entry-meta,
+.content_dark .lead-link:hover,
+.content_dark .tb-tabs-framed .tab-nav ul li a,
+.content_dark article .tb-tabs-open .tab-nav ul li a,
+.content_dark .element .element .tb-tabs-open .tab-nav ul li a,
+.content_dark #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #eeeeee;
+}
+.content_dark article,
+.content_dark #respond,
+.content_dark .fixed-sidebar .widget .widget-inner,
+.content_dark .element-content .element-inner,
+.content_dark .element-post_grid .element-inner,
+.content_dark .element-post_list .element-inner,
+.content_dark #content .element-columns .element-inner,
+.content_dark #content .element-post_grid_slider .element-inner,
+.content_dark #content .element-post_list_slider .element-inner,
+.content_dark #content .element-slider-standard .element-inner,
+.content_dark #content .element-slogan .element-inner,
+.content_dark #content .element-tweet .element-inner,
+.content_dark .tb-tabs-framed .tab-content,
+.content_dark .tb-tabs-framed .tab-nav ul li.active a,
+.content_dark article .tb-tabs-open .tab-nav ul li.active a,
+.content_dark .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_dark #comments .comment-body,
+.content_dark article .entry-title,
+.content_dark article .entry-title a,
+.content_dark #content .element-post_grid_slider article .entry-title,
+.content_dark #content .element-post_grid_slider article .entry-title a,
+.content_dark .tb-tabs-open .tab-content,
+.content_dark .entry-meta a,
+.content_dark .lead-link,
+.content_dark .entry-content th,
+.content_dark .comment-content th,
+.content_dark input,
+.content_dark input[type="submit"]:hover,
+.content_dark textarea,
+.content_dark select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_dark .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #242424; /* Hover color */
+}
+
+/* Light Blue */
+.content_light_blue #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/light_blue/slider-nav.png);
+}
+.content_light_blue .tags {
+	background-image: url(../images/tags-505050.png);
+}
+.content_light_blue .entry-content .themeblvd-search input[type="submit"],
+.content_light_blue .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-505050.png);
+}
+.content_light_blue .widget-area-fixed .widget ul li a {
+	border-color: #505050;
+}
+.content_light_blue #content .standard-slider-wrapper .prev, 
+.content_light_blue #content .standard-slider-wrapper .next, 
+.content_light_blue #content .standard-slider-wrapper .pause, 
+.content_light_blue #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+.content_light_blue .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-dark.png);
+}
+.content_light_blue .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-505050.png);
+}
+.content_light_blue article,
+.content_light_blue #respond,
+.content_light_blue .fixed-sidebar .widget .widget-inner,
+.content_light_blue .element-content .element-inner,
+.content_light_blue .element-post_grid .element-inner,
+.content_light_blue .element-post_list .element-inner,
+.content_light_blue #content .element-columns .element-inner,
+.content_light_blue #content .element-post_grid_slider .element-inner,
+.content_light_blue #content .element-post_list_slider .element-inner,
+.content_light_blue #content .element-slider-standard .element-inner,
+.content_light_blue #content .element-slogan .element-inner,
+.content_light_blue #content .element-tweet .element-inner,
+.content_light_blue #comments .comment-body,
+.content_light_blue .tb-tabs-framed .tab-nav ul li a,
+.content_light_blue .tb-tabs-open .tab-content,
+.content_light_blue input,
+.content_light_blue input[type="submit"]:hover,
+.content_light_blue textarea,
+.content_light_blue select {
+	/* Background Color */
+	background-color: #edf6ff;
+}
+.content_light_blue pre,
+.content_light_blue .tb-tabs-framed .tab-nav ul li.active a,
+.content_light_blue .tb-tabs-framed .tab-content,
+.content_light_blue .tb-toggle a.toggle-trigger:hover,
+.content_light_blue .tb-toggle a.active,
+.content_light_blue .entry-content .themeblvd-search fieldset,
+.content_light_blue .widget-area-fixed .themeblvd-search fieldset,
+.content_light_blue #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #e2edfc;
+}
+.content_light_blue .featured-image,
+.content_light_blue .element-post_grid .post_grid .featured-image,
+.content_light_blue .element-post_grid_slider .post_grid .featured-image,
+.content_light_blue img.pretty,
+.content_light_blue #wrapper .gallery a img,
+.content_light_blue #content .element .element .element-inner,
+.content_light_blue #content article .element .element-inner,
+.content_light_blue .entry-meta,
+.content_light_blue .wp-caption,
+.content_light_blue .entry-content td,
+.content_light_blue .comment-content td,
+.content_light_blue #content .element-slider-standard .slides,
+.content_light_blue #content .element-post_grid_slider .slides,
+.content_light_blue #content .element-post_list_slider .slides,
+.content_light_blue .element .element .divider-dashed,
+.content_light_blue .element .element .divider-solid,
+.content_light_blue .tb-tabs-open .tab-content,
+.content_light_blue .tb-tabs-framed .tab-nav,
+.content_light_blue .tb-tabs-framed .tab-nav ul li a,
+.content_light_blue .tb-tabs-framed .tab-content,
+.content_light_blue .tb-toggle,
+.content_light_blue .tb-toggle:last-of-type,
+.content_light_blue .tb-toggle a.active,
+.content_light_blue article .divider-dashed,
+.content_light_blue article .divider-solid,
+.content_light_blue input,
+.content_light_blue input[type="submit"]:hover,
+.content_light_blue textarea,
+.content_light_blue select,
+.content_light_blue .entry-content .themeblvd-search fieldset,
+.content_light_blue .widget-area-fixed .themeblvd-search fieldset,
+.content_light_blue #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #adc1df;
+}
+.content_light_blue .entry-meta,
+.content_light_blue .lead-link:hover,
+.content_light_blue .tb-tabs-framed .tab-nav ul li a,
+.content_light_blue article .tb-tabs-open .tab-nav ul li a,
+.content_light_blue .element .element .tb-tabs-open .tab-nav ul li a,
+.content_light_blue #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.content_light_blue article,
+.content_light_blue #respond,
+.content_light_blue .fixed-sidebar .widget .widget-inner,
+.content_light_blue .element-content .element-inner,
+.content_light_blue .element-post_grid .element-inner,
+.content_light_blue .element-post_list .element-inner,
+.content_light_blue #content .element-columns .element-inner,
+.content_light_blue #content .element-post_grid_slider .element-inner,
+.content_light_blue #content .element-post_list_slider .element-inner,
+.content_light_blue #content .element-slider-standard .element-inner,
+.content_light_blue #content .element-slogan .element-inner,
+.content_light_blue #content .element-tweet .element-inner,
+.content_light_blue .tb-tabs-framed .tab-content,
+.content_light_blue .tb-tabs-framed .tab-nav ul li.active a,
+.content_light_blue article .tb-tabs-open .tab-nav ul li.active a,
+.content_light_blue .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_light_blue #comments .comment-body,
+.content_light_blue article .entry-title,
+.content_light_blue article .entry-title a,
+.content_light_blue #content .element-post_grid_slider article .entry-title,
+.content_light_blue #content .element-post_grid_slider article .entry-title a,
+.content_light_blue .tb-tabs-open .tab-content,
+.content_light_blue .entry-meta a,
+.content_light_blue .lead-link,
+.content_light_blue .entry-content th,
+.content_light_blue .comment-content th,
+.content_light_blue input,
+.content_light_blue input[type="submit"]:hover,
+.content_light_blue textarea,
+.content_light_blue select {
+	/* Text Color */
+	color: #505050;
+}
+.content_light_blue .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #e2edfc; /* Hover color */
+}
+
+/* Light Orange */
+.content_light_orange #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/light_orange/slider-nav.png);
+}
+.content_light_orange .tags {
+	background-image: url(../images/tags-505050.png);
+}
+.content_light_orange .entry-content .themeblvd-search input[type="submit"],
+.content_light_orange .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-505050.png);
+}
+.content_light_orange .widget-area-fixed .widget ul li a {
+	border-color: #505050;
+}
+.content_light_orange #content .standard-slider-wrapper .prev, 
+.content_light_orange #content .standard-slider-wrapper .next, 
+.content_light_orange #content .standard-slider-wrapper .pause, 
+.content_light_orange #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+.content_light_orange .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-dark.png);
+}
+.content_light_orange .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-505050.png);
+}
+.content_light_orange article,
+.content_light_orange #respond,
+.content_light_orange .fixed-sidebar .widget .widget-inner,
+.content_light_orange .element-content .element-inner,
+.content_light_orange .element-post_grid .element-inner,
+.content_light_orange .element-post_list .element-inner,
+.content_light_orange #content .element-columns .element-inner,
+.content_light_orange #content .element-post_grid_slider .element-inner,
+.content_light_orange #content .element-post_list_slider .element-inner,
+.content_light_orange #content .element-slider-standard .element-inner,
+.content_light_orange #content .element-slogan .element-inner,
+.content_light_orange #content .element-tweet .element-inner,
+.content_light_orange #comments .comment-body,
+.content_light_orange .tb-tabs-framed .tab-nav ul li a,
+.content_light_orange .tb-tabs-open .tab-content,
+.content_light_orange input,
+.content_light_orange input[type="submit"]:hover,
+.content_light_orange textarea,
+.content_light_orange select  {
+	/* Background Color */
+	background-color: #f4b181;
+}
+.content_light_orange pre,
+.content_light_orange .tb-tabs-framed .tab-nav ul li.active a,
+.content_light_orange .tb-tabs-framed .tab-content,
+.content_light_orange .tb-toggle a.toggle-trigger:hover,
+.content_light_orange .tb-toggle a.active,
+.content_light_orange .entry-content .themeblvd-search fieldset,
+.content_light_orange .widget-area-fixed .themeblvd-search fieldset,
+.content_light_orange #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #e5a475;
+}
+.content_light_orange .featured-image,
+.content_light_orange .element-post_grid .post_grid .featured-image,
+.content_light_orange .element-post_grid_slider .post_grid .featured-image,
+.content_light_orange img.pretty,
+.content_light_orange #wrapper .gallery a img,
+.content_light_orange #content .element .element .element-inner,
+.content_light_orange #content article .element .element-inner,
+.content_light_orange .entry-meta,
+.content_light_orange .wp-caption,
+.content_light_orange .entry-content td,
+.content_light_orange .comment-content td,
+.content_light_orange #content .element-slider-standard .slides,
+.content_light_orange #content .element-post_grid_slider .slides,
+.content_light_orange #content .element-post_list_slider .slides,
+.content_light_orange .element .element .divider-dashed,
+.content_light_orange .element .element .divider-solid,
+.content_light_orange .tb-tabs-open .tab-content,
+.content_light_orange .tb-tabs-framed .tab-nav,
+.content_light_orange .tb-tabs-framed .tab-nav ul li a,
+.content_light_orange .tb-tabs-framed .tab-content,
+.content_light_orange .tb-toggle,
+.content_light_orange .tb-toggle:last-of-type,
+.content_light_orange .tb-toggle a.active,
+.content_light_orange article .divider-dashed,
+.content_light_orange article .divider-solid,
+.content_light_orange input,
+.content_light_orange input[type="submit"]:hover,
+.content_light_orange textarea,
+.content_light_orange select,
+.content_light_orange .entry-content .themeblvd-search fieldset,
+.content_light_orange .widget-area-fixed .themeblvd-search fieldset,
+.content_light_orange #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #d4834a;
+}
+.content_light_orange .entry-meta,
+.content_light_orange .lead-link:hover,
+.content_light_orange .tb-tabs-framed .tab-nav ul li a,
+.content_light_orange article .tb-tabs-open .tab-nav ul li a,
+.content_light_orange .element .element .tb-tabs-open .tab-nav ul li a,
+.content_light_orange #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.content_light_orange article,
+.content_light_orange #respond,
+.content_light_orange .fixed-sidebar .widget .widget-inner,
+.content_light_orange .element-content .element-inner,
+.content_light_orange .element-post_grid .element-inner,
+.content_light_orange .element-post_list .element-inner,
+.content_light_orange #content .element-columns .element-inner,
+.content_light_orange #content .element-post_grid_slider .element-inner,
+.content_light_orange #content .element-post_list_slider .element-inner,
+.content_light_orange #content .element-slider-standard .element-inner,
+.content_light_orange #content .element-slogan .element-inner,
+.content_light_orange #content .element-tweet .element-inner,
+.content_light_orange .tb-tabs-framed .tab-content,
+.content_light_orange .tb-tabs-framed .tab-nav ul li.active a,
+.content_light_orange article .tb-tabs-open .tab-nav ul li.active a,
+.content_light_orange .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_light_orange #comments .comment-body,
+.content_light_orange article .entry-title,
+.content_light_orange article .entry-title a,
+.content_light_orange #content .element-post_grid_slider article .entry-title,
+.content_light_orange #content .element-post_grid_slider article .entry-title a,
+.content_light_orange .tb-tabs-open .tab-content,
+.content_light_orange .entry-meta a,
+.content_light_orange .lead-link,
+.content_light_orange .entry-content th,
+.content_light_orange .comment-content th,
+.content_light_orange input,
+.content_light_orange input[type="submit"]:hover,
+.content_light_orange textarea,
+.content_light_orange select {
+	/* Text Color */
+	color: #505050;
+}
+.content_light_orange .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #e5a475; /* Hover color */
+}
+
+/* Midnight Blue */
+.content_midnight_blue #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/midnight_blue/slider-nav.png);
+}
+.content_midnight_blue .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_midnight_blue .entry-content .themeblvd-search input[type="submit"],
+.content_midnight_blue .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_midnight_blue #content .standard-slider-wrapper .prev, 
+.content_midnight_blue #content .standard-slider-wrapper .next, 
+.content_midnight_blue #content .standard-slider-wrapper .pause, 
+.content_midnight_blue #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_midnight_blue .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_midnight_blue .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_midnight_blue article,
+.content_midnight_blue #respond,
+.content_midnight_blue .fixed-sidebar .widget .widget-inner,
+.content_midnight_blue .element-content .element-inner,
+.content_midnight_blue .element-post_grid .element-inner,
+.content_midnight_blue .element-post_list .element-inner,
+.content_midnight_blue #content .element-columns .element-inner,
+.content_midnight_blue #content .element-post_grid_slider .element-inner,
+.content_midnight_blue #content .element-post_list_slider .element-inner,
+.content_midnight_blue #content .element-slider-standard .element-inner,
+.content_midnight_blue #content .element-slogan .element-inner,
+.content_midnight_blue #content .element-tweet .element-inner,
+.content_midnight_blue #comments .comment-body,
+.content_midnight_blue .tb-tabs-framed .tab-nav ul li a,
+.content_midnight_blue .tb-tabs-open .tab-content,
+.content_midnight_blue input,
+.content_midnight_blue input[type="submit"]:hover,
+.content_midnight_blue textarea,
+.content_midnight_blue select {
+	/* Background Color */
+	background-color: #384c6c;
+}
+.content_midnight_blue pre,
+.content_midnight_blue .tb-tabs-framed .tab-nav ul li.active a,
+.content_midnight_blue .tb-tabs-framed .tab-content,
+.content_midnight_blue .tb-toggle a.toggle-trigger:hover,
+.content_midnight_blue .tb-toggle a.active,
+.content_midnight_blue .entry-content .themeblvd-search fieldset,
+.content_midnight_blue .widget-area-fixed .themeblvd-search fieldset,
+.content_midnight_blue #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #2e415f;
+}
+.content_midnight_blue .featured-image,
+.content_midnight_blue .element-post_grid .post_grid .featured-image,
+.content_midnight_blue .element-post_grid_slider .post_grid .featured-image,
+.content_midnight_blue img.pretty,
+.content_midnight_blue #wrapper .gallery a img,
+.content_midnight_blue #content .element .element .element-inner,
+.content_midnight_blue #content article .element .element-inner,
+.content_midnight_blue .entry-meta,
+.content_midnight_blue .wp-caption,
+.content_midnight_blue .entry-content td,
+.content_midnight_blue .comment-content td,
+.content_midnight_blue #content .element-slider-standard .slides,
+.content_midnight_blue #content .element-post_grid_slider .slides,
+.content_midnight_blue #content .element-post_list_slider .slides,
+.content_midnight_blue .element .element .divider-dashed,
+.content_midnight_blue .element .element .divider-solid,
+.content_midnight_blue .tb-tabs-open .tab-content,
+.content_midnight_blue .tb-tabs-framed .tab-nav,
+.content_midnight_blue .tb-tabs-framed .tab-nav ul li a,
+.content_midnight_blue .tb-tabs-framed .tab-content,
+.content_midnight_blue .tb-toggle,
+.content_midnight_blue .tb-toggle:last-of-type,
+.content_midnight_blue .tb-toggle a.active,
+.content_midnight_blue article .divider-dashed,
+.content_midnight_blue article .divider-solid,
+.content_midnight_blue input,
+.content_midnight_blue input[type="submit"]:hover,
+.content_midnight_blue textarea,
+.content_midnight_blue select,
+.content_midnight_blue .entry-content .themeblvd-search fieldset,
+.content_midnight_blue .widget-area-fixed .themeblvd-search fieldset,
+.content_midnight_blue #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #202e45;
+}
+.content_midnight_blue .entry-meta,
+.content_midnight_blue .lead-link:hover,
+.content_midnight_blue .tb-tabs-framed .tab-nav ul li a,
+.content_midnight_blue article .tb-tabs-open .tab-nav ul li a,
+.content_midnight_blue .element .element .tb-tabs-open .tab-nav ul li a,
+.content_midnight_blue #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #dddddd;
+}
+.content_midnight_blue article,
+.content_midnight_blue #respond,
+.content_midnight_blue .fixed-sidebar .widget .widget-inner,
+.content_midnight_blue .element-content .element-inner,
+.content_midnight_blue .element-post_grid .element-inner,
+.content_midnight_blue .element-post_list .element-inner,
+.content_midnight_blue #content .element-columns .element-inner,
+.content_midnight_blue #content .element-post_grid_slider .element-inner,
+.content_midnight_blue #content .element-post_list_slider .element-inner,
+.content_midnight_blue #content .element-slider-standard .element-inner,
+.content_midnight_blue #content .element-slogan .element-inner,
+.content_midnight_blue #content .element-tweet .element-inner,
+.content_midnight_blue .tb-tabs-framed .tab-content,
+.content_midnight_blue .tb-tabs-framed .tab-nav ul li.active a,
+.content_midnight_blue article .tb-tabs-open .tab-nav ul li.active a,
+.content_midnight_blue .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_midnight_blue #comments .comment-body,
+.content_midnight_blue article .entry-title,
+.content_midnight_blue article .entry-title a,
+.content_midnight_blue #content .element-post_grid_slider article .entry-title,
+.content_midnight_blue #content .element-post_grid_slider article .entry-title a,
+.content_midnight_blue .tb-tabs-open .tab-content,
+.content_midnight_blue .entry-meta a,
+.content_midnight_blue .lead-link,
+.content_midnight_blue .entry-content th,
+.content_midnight_blue .comment-content th,
+.content_midnight_blue input,
+.content_midnight_blue input[type="submit"]:hover,
+.content_midnight_blue textarea,
+.content_midnight_blue select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_midnight_blue .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #2e415f; /* Hover color */
+}
+
+/* Mint */
+.content_mint #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/mint/slider-nav.png);
+}
+.content_mint .tags {
+	background-image: url(../images/tags-505050.png);
+}
+.content_mint .entry-content .themeblvd-search input[type="submit"],
+.content_mint .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-505050.png);
+}
+.content_mint .widget-area-fixed .widget ul li a {
+	border-color: #505050;
+}
+.content_mint #content .standard-slider-wrapper .prev, 
+.content_mint #content .standard-slider-wrapper .next, 
+.content_mint #content .standard-slider-wrapper .pause, 
+.content_mint #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+.content_mint .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-dark.png);
+}
+.content_mint .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-505050.png);
+}
+.content_mint article,
+.content_mint #respond,
+.content_mint .fixed-sidebar .widget .widget-inner,
+.content_mint .element-content .element-inner,
+.content_mint .element-post_grid .element-inner,
+.content_mint .element-post_list .element-inner,
+.content_mint #content .element-columns .element-inner,
+.content_mint #content .element-post_grid_slider .element-inner,
+.content_mint #content .element-post_list_slider .element-inner,
+.content_mint #content .element-slider-standard .element-inner,
+.content_mint #content .element-slogan .element-inner,
+.content_mint #content .element-tweet .element-inner,
+.content_mint #comments .comment-body,
+.content_mint .tb-tabs-framed .tab-nav ul li a,
+.content_mint .tb-tabs-open .tab-content,
+.content_mint input,
+.content_mint input[type="submit"]:hover,
+.content_mint textarea,
+.content_mint select {
+	/* Background Color */
+	background-color: #bfe4d9;
+}
+.content_mint pre,
+.content_mint .tb-tabs-framed .tab-nav ul li.active a,
+.content_mint .tb-tabs-framed .tab-content,
+.content_mint .tb-toggle a.toggle-trigger:hover,
+.content_mint .tb-toggle a.active,
+.content_mint .entry-content .themeblvd-search fieldset,
+.content_mint .widget-area-fixed .themeblvd-search fieldset,
+.content_mint #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #add9cb;
+}
+.content_mint .featured-image,
+.content_mint .element-post_grid .post_grid .featured-image,
+.content_mint .element-post_grid_slider .post_grid .featured-image,
+.content_mint img.pretty,
+.content_mint #wrapper .gallery a img,
+.content_mint #content .element .element .element-inner,
+.content_mint #content article .element .element-inner,
+.content_mint .entry-meta,
+.content_mint .wp-caption,
+.content_mint .entry-content td,
+.content_mint .comment-content td,
+.content_mint #content .element-slider-standard .slides,
+.content_mint #content .element-post_grid_slider .slides,
+.content_mint #content .element-post_list_slider .slides,
+.content_mint .element .element .divider-dashed,
+.content_mint .element .element .divider-solid,
+.content_mint .tb-tabs-open .tab-content,
+.content_mint .tb-tabs-framed .tab-nav,
+.content_mint .tb-tabs-framed .tab-nav ul li a,
+.content_mint .tb-tabs-framed .tab-content,
+.content_mint .tb-toggle,
+.content_mint .tb-toggle:last-of-type,
+.content_mint .tb-toggle a.active,
+.content_mint article .divider-dashed,
+.content_mint article .divider-solid,
+.content_mint input,
+.content_mint input[type="submit"]:hover,
+.content_mint textarea,
+.content_mint select,
+.content_mint .entry-content .themeblvd-search fieldset,
+.content_mint .widget-area-fixed .themeblvd-search fieldset,
+.content_mint #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #92cbb9;
+}
+.content_mint .entry-meta,
+.content_mint .lead-link:hover,
+.content_mint .tb-tabs-framed .tab-nav ul li a,
+.content_mint article .tb-tabs-open .tab-nav ul li a,
+.content_mint .element .element .tb-tabs-open .tab-nav ul li a,
+.content_mint #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.content_mint article,
+.content_mint #respond,
+.content_mint .fixed-sidebar .widget .widget-inner,
+.content_mint .element-content .element-inner,
+.content_mint .element-post_grid .element-inner,
+.content_mint .element-post_list .element-inner,
+.content_mint #content .element-columns .element-inner,
+.content_mint #content .element-post_grid_slider .element-inner,
+.content_mint #content .element-post_list_slider .element-inner,
+.content_mint #content .element-slider-standard .element-inner,
+.content_mint #content .element-slogan .element-inner,
+.content_mint #content .element-tweet .element-inner,
+.content_mint .tb-tabs-framed .tab-content,
+.content_mint .tb-tabs-framed .tab-nav ul li.active a,
+.content_mint article .tb-tabs-open .tab-nav ul li.active a,
+.content_mint .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_mint #comments .comment-body,
+.content_mint article .entry-title,
+.content_mint article .entry-title a,
+.content_mint #content .element-post_grid_slider article .entry-title,
+.content_mint #content .element-post_grid_slider article .entry-title a,
+.content_mint .tb-tabs-open .tab-content,
+.content_mint .entry-meta a,
+.content_mint .lead-link,
+.content_mint .entry-content th,
+.content_mint .comment-content th,
+.content_mint input,
+.content_mint input[type="submit"]:hover,
+.content_mint textarea,
+.content_mint select {
+	/* Text Color */
+	color: #505050;
+}
+.content_mint .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #add9cb; /* Hover color */
+}
+
+/* Orange */
+.content_orange #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/orange/slider-nav.png);
+}
+.content_orange .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_orange .entry-content .themeblvd-search input[type="submit"],
+.content_orange .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_orange #content .standard-slider-wrapper .prev, 
+.content_orange #content .standard-slider-wrapper .next, 
+.content_orange #content .standard-slider-wrapper .pause, 
+.content_orange #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_orange .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_orange .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_orange article,
+.content_orange #respond,
+.content_orange .fixed-sidebar .widget .widget-inner,
+.content_orange .element-content .element-inner,
+.content_orange .element-post_grid .element-inner,
+.content_orange .element-post_list .element-inner,
+.content_orange #content .element-columns .element-inner,
+.content_orange #content .element-post_grid_slider .element-inner,
+.content_orange #content .element-post_list_slider .element-inner,
+.content_orange #content .element-slider-standard .element-inner,
+.content_orange #content .element-slogan .element-inner,
+.content_orange #content .element-tweet .element-inner,
+.content_orange #comments .comment-body,
+.content_orange .tb-tabs-framed .tab-nav ul li a,
+.content_orange .tb-tabs-open .tab-content,
+.content_orange input,
+.content_orange input[type="submit"]:hover,
+.content_orange textarea,
+.content_orange select {
+	/* Background Color */
+	background-color: #cc4d29;
+}
+.content_orange pre,
+.content_orange .tb-tabs-framed .tab-nav ul li.active a,
+.content_orange .tb-tabs-framed .tab-content,
+.content_orange .tb-toggle a.toggle-trigger:hover,
+.content_orange .tb-toggle a.active,
+.content_orange .entry-content .themeblvd-search fieldset,
+.content_orange .widget-area-fixed .themeblvd-search fieldset,
+.content_orange #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #b74525;
+}
+.content_orange .featured-image,
+.content_orange .element-post_grid .post_grid .featured-image,
+.content_orange .element-post_grid_slider .post_grid .featured-image,
+.content_orange img.pretty,
+.content_orange #wrapper .gallery a img,
+.content_orange #content .element .element .element-inner,
+.content_orange #content article .element .element-inner,
+.content_orange .entry-meta,
+.content_orange .wp-caption,
+.content_orange .entry-content td,
+.content_orange .comment-content td,
+.content_orange #content .element-slider-standard .slides,
+.content_orange #content .element-post_grid_slider .slides,
+.content_orange #content .element-post_list_slider .slides,
+.content_orange .element .element .divider-dashed,
+.content_orange .element .element .divider-solid,
+.content_orange .tb-tabs-open .tab-content,
+.content_orange .tb-tabs-framed .tab-nav,
+.content_orange .tb-tabs-framed .tab-nav ul li a,
+.content_orange .tb-tabs-framed .tab-content,
+.content_orange .tb-toggle,
+.content_orange .tb-toggle:last-of-type,
+.content_orange .tb-toggle a.active,
+.content_orange article .divider-dashed,
+.content_orange article .divider-solid,
+.content_orange input,
+.content_orange input[type="submit"]:hover,
+.content_orange textarea,
+.content_orange select,
+.content_orange .entry-content .themeblvd-search fieldset,
+.content_orange .widget-area-fixed .themeblvd-search fieldset,
+.content_orange #comments .comment-body .reply a  {
+	/* Border Color */
+	border-color: #8a2e13;
+}
+.content_orange .entry-meta,
+.content_orange .lead-link:hover,
+.content_orange .tb-tabs-framed .tab-nav ul li a,
+.content_orange article .tb-tabs-open .tab-nav ul li a,
+.content_orange .element .element .tb-tabs-open .tab-nav ul li a,
+.content_orange #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #dddddd;
+}
+.content_orange article,
+.content_orange #respond,
+.content_orange .fixed-sidebar .widget .widget-inner,
+.content_orange .element-content .element-inner,
+.content_orange .element-post_grid .element-inner,
+.content_orange .element-post_list .element-inner,
+.content_orange #content .element-columns .element-inner,
+.content_orange #content .element-post_grid_slider .element-inner,
+.content_orange #content .element-post_list_slider .element-inner,
+.content_orange #content .element-slider-standard .element-inner,
+.content_orange #content .element-slogan .element-inner,
+.content_orange #content .element-tweet .element-inner,
+.content_orange .tb-tabs-framed .tab-content,
+.content_orange .tb-tabs-framed .tab-nav ul li.active a,
+.content_orange article .tb-tabs-open .tab-nav ul li.active a,
+.content_orange .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_orange #comments .comment-body,
+.content_orange article .entry-title,
+.content_orange article .entry-title a,
+.content_orange #content .element-post_grid_slider article .entry-title,
+.content_orange #content .element-post_grid_slider article .entry-title a,
+.content_orange .tb-tabs-open .tab-content,
+.content_orange .entry-meta a,
+.content_orange .lead-link,
+.content_orange .entry-content th,
+.content_orange .comment-content th,
+.content_orange input,
+.content_orange input[type="submit"]:hover,
+.content_orange textarea,
+.content_orange select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_orange .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #b74525; /* Hover color */
+}
+
+/* Purple */
+.content_purple #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/purple/slider-nav.png);
+}
+.content_purple .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_purple .entry-content .themeblvd-search input[type="submit"],
+.content_purple .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_purple #content .standard-slider-wrapper .prev, 
+.content_purple #content .standard-slider-wrapper .next, 
+.content_purple #content .standard-slider-wrapper .pause, 
+.content_purple #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_purple .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_purple .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_purple article,
+.content_purple #respond,
+.content_purple .fixed-sidebar .widget .widget-inner,
+.content_purple .element-content .element-inner,
+.content_purple .element-post_grid .element-inner,
+.content_purple .element-post_list .element-inner,
+.content_purple #content .element-columns .element-inner,
+.content_purple #content .element-post_grid_slider .element-inner,
+.content_purple #content .element-post_list_slider .element-inner,
+.content_purple #content .element-slider-standard .element-inner,
+.content_purple #content .element-slogan .element-inner,
+.content_purple #content .element-tweet .element-inner,
+.content_purple #comments .comment-body,
+.content_purple .tb-tabs-framed .tab-nav ul li a,
+.content_purple .tb-tabs-open .tab-content,
+.content_purple input,
+.content_purple input[type="submit"]:hover,
+.content_purple textarea,
+.content_purple select {
+	/* Background Color */
+	background-color: #70779c;
+}
+.content_purple pre,
+.content_purple .tb-tabs-framed .tab-nav ul li.active a,
+.content_purple .tb-tabs-framed .tab-content,
+.content_purple .tb-toggle a.toggle-trigger:hover,
+.content_purple .tb-toggle a.active,
+.content_purple .entry-content .themeblvd-search fieldset,
+.content_purple .widget-area-fixed .themeblvd-search fieldset,
+.content_purple #comments .comment-body .reply a:hover  {
+	/* Hover Color */
+	background-color: #646b8f;
+}
+.content_purple .featured-image,
+.content_purple .element-post_grid .post_grid .featured-image,
+.content_purple .element-post_grid_slider .post_grid .featured-image,
+.content_purple img.pretty,
+.content_purple #wrapper .gallery a img,
+.content_purple #content .element .element .element-inner,
+.content_purple #content article .element .element-inner,
+.content_purple .entry-meta,
+.content_purple .wp-caption,
+.content_purple .entry-content td,
+.content_purple .comment-content td,
+.content_purple #content .element-slider-standard .slides,
+.content_purple #content .element-post_grid_slider .slides,
+.content_purple #content .element-post_list_slider .slides,
+.content_purple .element .element .divider-dashed,
+.content_purple .element .element .divider-solid,
+.content_purple .tb-tabs-open .tab-content,
+.content_purple .tb-tabs-framed .tab-nav,
+.content_purple .tb-tabs-framed .tab-nav ul li a,
+.content_purple .tb-tabs-framed .tab-content,
+.content_purple .tb-toggle,
+.content_purple .tb-toggle:last-of-type,
+.content_purple .tb-toggle a.active,
+.content_purple article .divider-dashed,
+.content_purple article .divider-solid,
+.content_purple input,
+.content_purple input[type="submit"]:hover,
+.content_purple textarea,
+.content_purple select,
+.content_purple .entry-content .themeblvd-search fieldset,
+.content_purple .widget-area-fixed .themeblvd-search fieldset,
+.content_purple #comments .comment-body .reply a  {
+	/* Border Color */
+	border-color: #4a4f71;
+}
+.content_purple .entry-meta,
+.content_purple .lead-link:hover,
+.content_purple .tb-tabs-framed .tab-nav ul li a,
+.content_purple article .tb-tabs-open .tab-nav ul li a,
+.content_purple .element .element .tb-tabs-open .tab-nav ul li a,
+.content_purple #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #dddddd;
+}
+.content_purple article,
+.content_purple #respond,
+.content_purple .fixed-sidebar .widget .widget-inner,
+.content_purple .element-content .element-inner,
+.content_purple .element-post_grid .element-inner,
+.content_purple .element-post_list .element-inner,
+.content_purple #content .element-columns .element-inner,
+.content_purple #content .element-post_grid_slider .element-inner,
+.content_purple #content .element-post_list_slider .element-inner,
+.content_purple #content .element-slider-standard .element-inner,
+.content_purple #content .element-slogan .element-inner,
+.content_purple #content .element-tweet .element-inner,
+.content_purple .tb-tabs-framed .tab-content,
+.content_purple .tb-tabs-framed .tab-nav ul li.active a,
+.content_purple article .tb-tabs-open .tab-nav ul li.active a,
+.content_purple .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_purple #comments .comment-body,
+.content_purple article .entry-title,
+.content_purple article .entry-title a,
+.content_purple #content .element-post_grid_slider article .entry-title,
+.content_purple #content .element-post_grid_slider article .entry-title a,
+.content_purple .tb-tabs-open .tab-content,
+.content_purple .entry-meta a,
+.content_purple .lead-link,
+.content_purple .entry-content th,
+.content_purple .comment-content th,
+.content_purple input,
+.content_purple input[type="submit"]:hover,
+.content_purple textarea,
+.content_purple select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_purple .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #646b8f; /* Hover color */
+}
+
+/* Red */
+.content_red #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/red/slider-nav.png);
+}
+.content_red .tags {
+	background-image: url(../images/tags-ffffff.png);
+}
+.content_red .entry-content .themeblvd-search input[type="submit"],
+.content_red .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-ffffff.png);
+}
+.content_red #content .standard-slider-wrapper .prev, 
+.content_red #content .standard-slider-wrapper .next, 
+.content_red #content .standard-slider-wrapper .pause, 
+.content_red #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-ffffff.png);
+}
+.content_red .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-light.png);
+}
+.content_red .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-ffffff.png);
+}
+.content_red article,
+.content_red #respond,
+.content_red .fixed-sidebar .widget .widget-inner,
+.content_red .element-content .element-inner,
+.content_red .element-post_grid .element-inner,
+.content_red .element-post_list .element-inner,
+.content_red #content .element-columns .element-inner,
+.content_red #content .element-post_grid_slider .element-inner,
+.content_red #content .element-post_list_slider .element-inner,
+.content_red #content .element-slider-standard .element-inner,
+.content_red #content .element-slogan .element-inner,
+.content_red #content .element-tweet .element-inner,
+.content_red #comments .comment-body,
+.content_red .tb-tabs-framed .tab-nav ul li a,
+.content_red .tb-tabs-open .tab-content,
+.content_red input,
+.content_red input[type="submit"]:hover,
+.content_red textarea,
+.content_red select {
+	/* Background Color */
+	background-color: #d46053;
+}
+.content_red pre,
+.content_red .tb-tabs-framed .tab-nav ul li.active a,
+.content_red .tb-tabs-framed .tab-content,
+.content_red .tb-toggle a.toggle-trigger:hover,
+.content_red .tb-toggle a.active,
+.content_red .entry-content .themeblvd-search fieldset,
+.content_red .widget-area-fixed .themeblvd-search fieldset,
+.content_red #comments .comment-body .reply a:hover  {
+	/* Hover Color */
+	background-color: #c5594c;
+}
+.content_red .featured-image,
+.content_red .element-post_grid .post_grid .featured-image,
+.content_red .element-post_grid_slider .post_grid .featured-image,
+.content_red img.pretty,
+.content_red #wrapper .gallery a img,
+.content_red #content .element .element .element-inner,
+.content_red #content article .element .element-inner,
+.content_red .entry-meta,
+.content_red .wp-caption,
+.content_red .entry-content td,
+.content_red .comment-content td,
+.content_red #content .element-slider-standard .slides,
+.content_red #content .element-post_grid_slider .slides,
+.content_red #content .element-post_list_slider .slides,
+.content_red .element .element .divider-dashed,
+.content_red .element .element .divider-solid,
+.content_red .tb-tabs-open .tab-content,
+.content_red .tb-tabs-framed .tab-nav,
+.content_red .tb-tabs-framed .tab-nav ul li a,
+.content_red .tb-tabs-framed .tab-content,
+.content_red .tb-toggle,
+.content_red .tb-toggle:last-of-type,
+.content_red .tb-toggle a.active,
+.content_red article .divider-dashed,
+.content_red article .divider-solid,
+.content_red input,
+.content_red input[type="submit"]:hover,
+.content_red textarea,
+.content_red select,
+.content_red .entry-content .themeblvd-search fieldset,
+.content_red .widget-area-fixed .themeblvd-search fieldset,
+.content_red #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #a03428;
+}
+.content_red .entry-meta,
+.content_red .lead-link:hover,
+.content_red .tb-tabs-framed .tab-nav ul li a,
+.content_red article .tb-tabs-open .tab-nav ul li a,
+.content_red .element .element .tb-tabs-open .tab-nav ul li a,
+.content_red #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #dddddd;
+}
+.content_red article,
+.content_red #respond,
+.content_red .fixed-sidebar .widget .widget-inner,
+.content_red .element-content .element-inner,
+.content_red .element-post_grid .element-inner,
+.content_red .element-post_list .element-inner,
+.content_red #content .element-columns .element-inner,
+.content_red #content .element-post_grid_slider .element-inner,
+.content_red #content .element-post_list_slider .element-inner,
+.content_red #content .element-slider-standard .element-inner,
+.content_red #content .element-slogan .element-inner,
+.content_red #content .element-tweet .element-inner,
+.content_red .tb-tabs-framed .tab-content,
+.content_red .tb-tabs-framed .tab-nav ul li.active a,
+.content_red article .tb-tabs-open .tab-nav ul li.active a,
+.content_red .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_red #comments .comment-body,
+.content_red article .entry-title,
+.content_red article .entry-title a,
+.content_red #content .element-post_grid_slider article .entry-title,
+.content_red #content .element-post_grid_slider article .entry-title a,
+.content_red .tb-tabs-open .tab-content,
+.content_red .entry-meta a,
+.content_red .lead-link,
+.content_red .entry-content th,
+.content_red .comment-content th,
+.content_red input,
+.content_red input[type="submit"]:hover,
+.content_red textarea,
+.content_red select {
+	/* Text Color */
+	color: #ffffff;
+}
+.content_purple .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #c5594c; /* Hover color */
+}
+
+/* Tan */
+.content_tan #content .standard-slider-wrapper .flex-control-nav li a {
+	background-image: url(../images/colors/tan/slider-nav.png);
+}
+.content_tan .tags {
+	background-image: url(../images/tags-505050.png);
+}
+.content_tan .entry-content .themeblvd-search input[type="submit"],
+.content_tan .widget-area-fixed .themeblvd-search input[type="submit"] {
+	background-image: url(../../framework/frontend/assets/images/parts/search-505050.png);
+}
+.content_tan .widget-area-fixed .widget ul li a {
+	border-color: #505050;
+}
+.content_tan #content .standard-slider-wrapper .prev, 
+.content_tan #content .standard-slider-wrapper .next, 
+.content_tan #content .standard-slider-wrapper .pause, 
+.content_tan #content .standard-slider-wrapper .play { 
+	background-image: url(../../framework/frontend/assets/images/elements/arrows-505050.png);
+}
+.content_tan .element-tweet .tweet-icon {
+	background-image: url(../../framework/frontend/assets/images/elements/tweet-dark.png);
+}
+.content_tan .tb-toggle a.toggle-trigger span {
+	background-image: url(../../framework/frontend/assets/images/elements/toggle-505050.png);
+}
+.content_tan article,
+.content_tan #respond,
+.content_tan .fixed-sidebar .widget .widget-inner,
+.content_tan .element-content .element-inner,
+.content_tan .element-post_grid .element-inner,
+.content_tan .element-post_list .element-inner,
+.content_tan #content .element-columns .element-inner,
+.content_tan #content .element-post_grid_slider .element-inner,
+.content_tan #content .element-post_list_slider .element-inner,
+.content_tan #content .element-slider-standard .element-inner,
+.content_tan #content .element-slogan .element-inner,
+.content_tan #content .element-tweet .element-inner,
+.content_tan #comments .comment-body,
+.content_tan .tb-tabs-framed .tab-nav ul li a,
+.content_tan .tb-tabs-open .tab-content,
+.content_tan input,
+.content_tan input[type="submit"]:hover,
+.content_tan textarea,
+.content_tan select {
+	/* Background Color */
+	background-color: #e8dbc3;
+}
+.content_tan pre,
+.content_tan .tb-tabs-framed .tab-nav ul li.active a,
+.content_tan .tb-tabs-framed .tab-content,
+.content_tan .tb-toggle a.toggle-trigger:hover,
+.content_tan .tb-toggle a.active,
+.content_tan .entry-content .themeblvd-search fieldset,
+.content_tan .widget-area-fixed .themeblvd-search fieldset,
+.content_tan #comments .comment-body .reply a:hover {
+	/* Hover Color */
+	background-color: #dacdb6;
+}
+.content_tan .featured-image,
+.content_tan .element-post_grid .post_grid .featured-image,
+.content_tan .element-post_grid_slider .post_grid .featured-image,
+.content_tan img.pretty,
+.content_tan #wrapper .gallery a img,
+.content_tan #content .element .element .element-inner,
+.content_tan #content article .element .element-inner,
+.content_tan .entry-meta,
+.content_tan .wp-caption,
+.content_tan .entry-content td,
+.content_tan .comment-content td,
+.content_tan #content .element-slider-standard .slides,
+.content_tan #content .element-post_grid_slider .slides,
+.content_tan #content .element-post_list_slider .slides,
+.content_tan .element .element .divider-dashed,
+.content_tan .element .element .divider-solid,
+.content_tan .tb-tabs-open .tab-content,
+.content_tan .tb-tabs-framed .tab-nav,
+.content_tan .tb-tabs-framed .tab-nav ul li a,
+.content_tan .tb-tabs-framed .tab-content,
+.content_tan .tb-toggle,
+.content_tan .tb-toggle:last-of-type,
+.content_tan .tb-toggle a.active,
+.content_tan article .divider-dashed,
+.content_tan article .divider-solid,
+.content_tan input,
+.content_tan input[type="submit"]:hover,
+.content_tan textarea,
+.content_tan select,
+.content_tan .entry-content .themeblvd-search fieldset,
+.content_tan .widget-area-fixed .themeblvd-search fieldset,
+.content_tan #comments .comment-body .reply a {
+	/* Border Color */
+	border-color: #d1c09e;
+}
+.content_tan .entry-meta,
+.content_tan .lead-link:hover,
+.content_tan .tb-tabs-framed .tab-nav ul li a,
+.content_tan article .tb-tabs-open .tab-nav ul li a,
+.content_tan .element .element .tb-tabs-open .tab-nav ul li a,
+.content_tan #comments .comment-body .comment-meta a {
+	/* Faint Text Color */
+	color: #6f6f6f;
+}
+.content_tan article,
+.content_tan #respond,
+.content_tan .fixed-sidebar .widget .widget-inner,
+.content_tan .element-content .element-inner,
+.content_tan .element-post_grid .element-inner,
+.content_tan .element-post_list .element-inner,
+.content_tan #content .element-columns .element-inner,
+.content_tan #content .element-post_grid_slider .element-inner,
+.content_tan #content .element-post_list_slider .element-inner,
+.content_tan #content .element-slider-standard .element-inner,
+.content_tan #content .element-slogan .element-inner,
+.content_tan #content .element-tweet .element-inner,
+.content_tan .tb-tabs-framed .tab-content,
+.content_tan .tb-tabs-framed .tab-nav ul li.active a,
+.content_tan article .tb-tabs-open .tab-nav ul li.active a,
+.content_tan .element .element .tb-tabs-open .tab-nav ul li.active a,
+.content_tan #comments .comment-body,
+.content_tan article .entry-title,
+.content_tan article .entry-title a,
+.content_tan #content .element-post_grid_slider article .entry-title,
+.content_tan #content .element-post_grid_slider article .entry-title a,
+.content_tan .tb-tabs-open .tab-content,
+.content_tan .entry-meta a,
+.content_tan .lead-link,
+.content_tan .entry-content th,
+.content_tan .comment-content th,
+.content_tan input,
+.content_tan input[type="submit"]:hover,
+.content_tan textarea,
+.content_tan select {
+	/* Text Color */
+	color: #505050;
+}
+.content_tan .tb-tabs-framed .tab-nav ul li.active a {
+	border-bottom-color: #dacdb6; /* Hover color */
+}

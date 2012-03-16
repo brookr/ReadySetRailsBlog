@@ -1,0 +1,35 @@
+#themeblvd-options-buttons {
+	background-color: #f8f8f8;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 10px 0;
+	padding: 10px;
+}
+
+#themeblvd-options-buttons h3 {
+	margin: 5px 10px;
+}
+
+#themeblvd-options-table th,
+#themeblvd-options-table td {
+	padding: 10px;
+}
+
+#themeblvd-options-table th label {
+	display: block;
+	width: 175px;
+}
+
+#themeblvd-options-table .themeblvd-input-help {
+	color: #888888;
+	display: block;
+	font-size: 11px;
+	padding: 5px;
+}
+
+#themeblvd-options-table .select_wrapper span {
+	display: none;
+}

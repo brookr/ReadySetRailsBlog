@@ -1,0 +1,204 @@
+== Swagger Changelog ==
+
+= 1.0.7 =
+
+* Removed most old IE transparency filters.
+* Added frames to images in [gallery].
+* Altered how theme adds image sizes so they can be filtered from plugin or child theme.
+* Adjusted how viewport meta tag is set in head of the site depending on whether you have responsive design turned on or off.
+* Integrated comments better into framework's internal front-end localization filter.
+* Fixed YouTube filter to fix YouTube's wmode bug in their native embed code.
+* Adjusted Changelog link on theme options page to open in lightbox popup.
+* Fixed Picasa icon of social icon selections.
+* Added "themeblvd_footer_copyright" filter to footer copyright text option output for use in plugins.
+* Added "themeblvd_post_thumbnail" filter for use in plugins.
+* Now allowing input of 1 column in [post_grid] shortcode.
+* Adjusted recent tweet element to use caching.
+* Updated FlexSlider jQuery plugin to v1.8
+* Added iframe as accepted HTML tag in content areas of the framework.
+* Fixed bug with Featured area of custom layouts showing on Homepage with no featured elements.
+* In generating [icon] shortcode from TinyMCE shortcode generator, fixed mug icon and added additional icons.
+* Now toggle shortcode accepts shortcodes within along with WordPress automatic formatting.
+* Re-generated localization file.
+* Updated framework to version 2.0.5.
+
+Effected Files:
+/style.css
+/comments.php
+/functions.php
+/header.php
+/assets/css/colors.css
+/assets/css/colors.min.css
+/assets/css/theme.css
+/assets/css/theme.min.css
+/framework/themeblvd.php
+/framework/admin/modules/options/options-framework.php
+/framework/frontend/assets/css/themeblvd.css
+/framework/frontend/functions/display.php
+/framework/frontend/functions/helpers.php
+/framework/frontend/functions/locals.php
+/framework/frontend/functions/builder.php
+/framework/frontend/assets/js/flexslider.js
+/framework/frontend/functions/general.php
+/framework/shortcodes/tinymce/shortcodes/tb_icon.js
+/framework/frontend/assets/images/textures/ (new directory)
+/framework/shortcodes/shortcodes.php
+/lang/swagger.po
+
+= 1.0.6 =
+
+* Fixed initial bug with "Theme Blvd Simple Contact" widget where the field titled "Link #5 URL" was not saving properly.
+
+Effected Files:
+/style.css
+/framework/sidebars/widgets/tb-widget-contact.php
+
+= 1.0.5 =
+
+* Now when you turn off responsive design in your Theme Options, your site will have a fixed 960px width across all devices.
+* Adjusted comment form to be styled nicer when user hits "Reply" on a comment.
+* I still do not claim the theme is fully compatible with IE7, but I did adjust the CSS so main navigation drop down menus will appear correctly on top of sliders in IE7.
+* Fixed bug with Slider Builder and needing text in "Link URL" field when hitting "Insert into Slider" button.
+* Added Lucida Sans to selectable web font in Theme Options.
+* Added new widget - "Theme Blvd Simple Contact"
+* On post list/post grid short code generator, link=true/false will now be inserted properly.
+* Compressed some CSS files in admin panel.
+* Improved caching with Twitter widget to avoid the error message that kept coming up, "No public Tweets." 
+* Fixed breadcrumbs options not working correctly on archives, 404, and search results pages.
+* Added first-element/last-element CSS classes to elements in custom layouts.
+* Added additional CSS classes to standard slider effected by options user selects.
+* Adjusted output of custom images you setup with rel="themeblvd_lightbox" so they aren't directly effected in the same way featured images are.
+* Adjusted how toggle shortcode works. Now use "last" in last toggle of set - [toggle title="Example" last]Toggle text.[/toggle]
+* Edited some wording of option descriptions for clarity under Post Options and Page Options meta boxes.
+* Under Appearance > Theme Options you can now see the current theme version, framework version, and a link to the latest update log.
+* Added several actions and filters for developers throughout different items of the framework.
+* Updated actions map in Code Customizations section of documentation.
+* Updated framework to version 2.0.4.
+
+Effected Files:
+/style.css
+/archive.php
+/footer.php
+/functions.php
+/header.php
+/index.php
+/page.php
+/single.php
+/template_grid.php
+/template_list.php
+/assets/css/colors.css
+/assets/css/colors.min.css
+/assets/css/theme.css
+/assets/css/theme.min.css
+/assets/css/ie.css
+/framework/themeblvd.php
+/framework/admin/assets/css/admin-style.css
+/framework/admin/assets/css/meta-box.css
+/framework/admin/modules/options/css/admin-style.css
+/framework/frontend/functions/locals.php
+/framework/frontend/functions/builder.php
+/framework/frontend/functions/parts.php
+/framework/frontend/functions/actions.php
+/framework/frontend/functions/sliders.php
+/framework/frontend/assets/js/themeblvd.js
+/framework/frontend/functions/helpers.php
+/framework/frontend/functions/display.php
+/framework/frontend/functions/general.php
+/framework/frontend/functions/meta.php
+/framework/frontend/functions/helpers.php
+/framework/admin/functions/meta.php
+/framework/admin/functions/general.php
+/framework/admin/modules/options/js/of-medialibrary-uploader.js
+/framework/admin/modules/options/options-framework.php
+/framework/admin/modules/options/options-sanitize.php
+/framework/admin/modules/sliders/sliders-ajax.php
+/framework/admin/modules/sliders/sliders-interface.php
+/framework/sidebars/widgets/tb-widget-contact.php (New file)
+/framework/sidebars/widgets/tb-widget-twitter.php
+/framework/shortcodes/shortcodes.php
+/framework/shortcodes/tinymce/shortcodes/tb_post_grid.js
+/framework/shortcodes/tinymce/shortcodes/tb_post_list.js
+
+= 1.0.4 =
+
+* Fixed little bug with random post title showing at the top a custom layout set as your homepage under Theme Options > Content > Homepage.
+
+Effected Files:
+/style.css
+/functions.php
+
+= 1.0.3 =
+
+* Added new option on Theme Options page to turn responsive CSS file on/off (Appearance > Theme Options > Configuration).
+* Added new option on Theme Options page to apply custom layout to homepage if Settings > Reading > Frontpage displays is set to "your latest posts."
+* Fixed issues with putting paginated post elements in a custom layout and using that custom layout as your homepage (related to above option being added).
+* Fixed styling when using post list slider of layout builder in featured area when using darker primary color options.
+* Fixed white text color in prettyPhoto lightbox popup when using darker primary color options.
+* Fixed use of WordPress's more tag when using "full content" display in the "Post List" element of the layout builder.
+* Added unique CSS classes to elements in layout builder to allow custom styling.
+* Fixed styling when using [gallery] shortcode in small area.
+* Integrated lightbox when using [gallery link="file"].
+* Adjusted Contact Form 7 plugin's styling when used in widgets.
+* Layouts built with the layout builder now show the title of the page at the top. It can then be hidden when editing the individual page same as all other pages.
+* Added "Posts in Category" conditional to assignment choices for custom widget areas.
+* Fixed some compatibility issues with more complicated plugins that utilize WordPress's template_redirect action.
+* Added more unique internal ID system for sliders to avoid styling conflicts with other generically named elements.
+* Filtered WP's body_class() to add additional CSS classes for custom styling of elements in the framework.
+* Theme Blvd Framework version updated to 2.0.2
+* Updated documentation to reflect relevant changes.
+
+Note: After installing this update, you will see that titles now appear at the top of your pages built with the layout builder. So, you need to go to the pages and hide the titles under the Page Options section.
+
+Effected Files:
+/style.css
+/functions.php
+/index.php
+/assets/css/theme.css
+/assets/css/theme.min.css
+/assets/css/colors.css
+/assets/css/colors.min.css
+/framework/themeblvd.php
+/framework/frontend/assets/js/themeblvd.js
+/framework/admin/assets/js/shared.js
+/framework/admin/assets/js/shared.min.js
+/framework/admin/functions/general.php
+/framework/admin/functions/display.php
+/framework/admin/modules/options/options-sanitize.php
+/framework/admin/modules/options/css/admin-style.css
+/framework/frontend/functions/builder.php
+/framework/frontend/functions/general.php
+/framework/frontend/functions/helpers.php
+/framework/frontend/functions/parts.php
+/framework/frontend/functions/sliders.php
+/framework/shortcodes/shortcodes.php
+/includes/options.php
+
+= 1.0.2 =
+
+* Added missing text domain registration (for localization).
+* Adjusted @media CSS to accommodate more mobile devices.
+
+Effected Files:
+/style.css
+/functions.php
+/assets/css/theme.css
+/assets/css/theme.min.css
+
+= 1.0.1 =
+
+* Added ul and li as accepted HTML tags in content elements of the layout builder.
+* Edited Sample layout "Swagger Homepage" to reflect more accurate result in "From The Portfolio" tab.
+* Fixed errors a few buyers were having related to ThemeBlvd_Meta_Box class.
+* Changed how files are included to not be effected by server caching when moving files.
+* Theme Blvd Framework version updated to 2.0.1
+
+Effected Files:
+/style.css
+/functions.php
+/framework/themeblvd.php
+/framework/admin/functions/general.php
+/framework/admin/meta.php
+
+= 1.0 =
+
+* This is the first release constructed from Theme Blvd Framework version 2.0.
