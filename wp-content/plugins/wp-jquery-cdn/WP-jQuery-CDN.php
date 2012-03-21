@@ -4,11 +4,11 @@
 Plugin Name: WP jQuery CDN
 Description: Activate Plugin and Select a jQuery CDN via the WP jQuery CDN options area
 Author: InertiaInMotion
-Version: 2.1
+Version: 2.2
 Author URI: http://inertiainmotion.com.au/
 Plugin URI: http://wordpress.org/extend/plugins/wp-jquery-cdn/
 */
-/*  Copyright 2011 InertiaInMotion
+/*  Copyright 2011 - 2012 InertiaInMotion
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
@@ -108,13 +108,6 @@ Plugin URI: http://wordpress.org/extend/plugins/wp-jquery-cdn/
 			function wp_jquery_cdn_init(){
     			if (!is_admin()){
     				global $jquery;
-    				$get_jquery = @file_get_contents($jquery);
-    				if(!$get_jquery && $options['jquery_cdn'] != "4"){ 
-    					$jquery = plugins_url() . '/wp-jquery-cdn/js/local-jquery.min.js';
-    				}
-    				if(!$get_jquery && $options['jquery_cdn'] == "4"){ 
-    					$jquery = 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';
-    				}    				
         			wp_deregister_script('jquery');
         			wp_register_script('jquery', $jquery);
         			wp_enqueue_script('jquery');

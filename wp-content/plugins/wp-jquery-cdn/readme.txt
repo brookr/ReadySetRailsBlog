@@ -15,28 +15,27 @@ Activate Plugin and Select a jQuery CDN via the WP jQuery CDN options area
 3. Microsoft jQuery CDN 
 4. Local jQuery (Inside this plugins js folder) 
 5. Local jQuery (Wordpress)(Might be out of date) 
-6. None (Don't load any jQuery, Or i wish to load it Myself) 
-
-= Other Features =
-1. Built In Fallback feature, this means that if your selected jQuery CDN isn't reachable WP jQuery CDN will fallback to the local jQuery (Inside this plugins js folder)
-2. Extra Fallback feature, if you have selected the local jQuery and it is unreachable for what ever reason, we will fallback to Google Ajax API jQuery CDN
-3. The next feature has been added with 2 scenarios in mind. A. You wish to load your own jQuery via a theme or such, and/or B. You don't use any jQuery functionality and wish to stop Wordpress from calling it in header.php (Hey less HTTP Requests!)
-3. If one (or both) of the above scenarios in point number #2 apply to you. (Select "None (Don't load any jQuery, Or i wish to load it Myself)" from the drop down)
+6. None (Don't load any jQuery, Or i wish to load it Myself)
 
 == Installation ==
 
 1. Upload to the '/wp-content/plugins/' directory
 2. Activate through the 'Plugins' menu in WordPress
 2. (Optional) Select a jQuery CDN via the WP jQuery CDN options area (Defaults to Google Ajax API jQuery CDN)
-2. (Optional) Specify a Version number via the WP jQuery CDN options area (Defaults to 1.6.4)
+2. (Optional) Specify a Version number via the WP jQuery CDN options area (Defaults to 1.7.1)
 3. Set it and forget it...
 
 == Upgrade Notice ==
 
+= 2.2 =
+Corrected a HTML Request issue, Please update the plugin ASAP
 = 2 =
-Major Changes/Fixes, Please update your copy ASAP
+Major Changes/Fixes, Please update the plugin ASAP
 
 == Changelog ==
+
+= 2.2 =
+* Removed the fallback feature
 
 = 2.1 =
 * Updated "local-jquery.min.js" to jQuery 1.7.1
