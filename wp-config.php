@@ -16,6 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true); //Added by WP-Cache Manager
 if (isset($_SERVER["DATABASE_URL"])) {
   $db = parse_url($_SERVER["DATABASE_URL"]);
   define("DB_NAME", trim($db["path"],"/"));
