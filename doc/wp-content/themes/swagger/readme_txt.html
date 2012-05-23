@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>File: readme.txt [RDoc Documentation]</title>
+
+  <link type="text/css" media="screen" href="../../../rdoc.css" rel="stylesheet" />
+
+  <script src="../../../js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="../../../js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="../../../js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="../../../js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file">
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../../../index.html">Home</a>
+          <a href="../../../index.html#classes">Classes</a>
+          <a href="../../../index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="../../../Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="../../../db/dumps/readysetrailsblog_2012-04-26_00-03-20.html">readysetrailsblog_2012-04-26_00-03-20</a></li>
+        
+          <li class="file"><a href="../../../license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../tmp/restart_txt.html">restart.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/plugins/akismet/readme_txt.html">readme.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/plugins/mailchimp/readme_txt.html">readme.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/plugins/wp-jquery-cdn/GPL-LICENSE_txt.html">GPL-LICENSE.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/plugins/wp-jquery-cdn/js/GPL-LICENSE_txt.html">GPL-LICENSE.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/plugins/wp-jquery-cdn/readme_txt.html">readme.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/plugins/wp-super-cache/Changelog_txt.html">Changelog.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/themes/swagger/changelog_txt.html">changelog.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/themes/swagger/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/themes/swagger/readme_txt.html">readme.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/themes/twentyeleven/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/themes/twentyeleven/readme_txt.html">readme.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-content/themes/twentyten/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-includes/images/crystal/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-includes/js/plupload/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-includes/js/scriptaculous/MIT-LICENSE.html">MIT-LICENSE</a></li>
+        
+          <li class="file"><a href="../../../wp-includes/js/swfupload/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-includes/js/tinymce/license_txt.html">license.txt</a></li>
+        
+          <li class="file"><a href="../../../wp-includes/js/tinymce/plugins/spellchecker/changelog_txt.html">changelog.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class Index
+          <span class="search-toggle"><img src="../../../images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    
+<h1>THEME BLVD WORDPRESS FRAMEWORK =</h1>
+<hr style="height: 10px">
+
+<h1>Framework File Structure</h1>
+<hr style="height: 10px">
+<ul><li>
+<p>This framework is setup in a way designed for certain files to never be
+edited. Anything that is a core file should never be edited.</p>
+</li><li>
+<p>NOTE: If you’re working with this framework in a theme already created,
+it’s best to make ALL edits from a child theme, and never edit any files
+within the current theme.</p>
+</li><li>
+<p>404.php                               - CORE FILE</p>
+</li><li>
+<p>archive.php                   - CORE FILE</p>
+</li><li>
+<p>/assets/                              - THEME DEPENDENT</p>
+</li><li>
+<p>comments.php                  - THEME DEPENDENT</p>
+</li><li>
+<p>content.php                   - THEME DEPENDENT</p>
+</li><li>
+<p>content-{type}.php    - THEME DEPENDENT</p>
+</li><li>
+<p>footer.php                    - CORE FILE</p>
+</li><li>
+<p>/framework/                   - CORE FILES</p>
+</li><li>
+<p>functions.php                 - THEME DEPENDENT</p>
+</li><li>
+<p>header.php                    - CORE FILE</p>
+</li><li>
+<p>/includes/                    - THEME DEPENDENT</p>
+</li><li>
+<p>index.php                             - CORE FILE</p>
+</li><li>
+<p>page.php                              - CORE FILE</p>
+</li><li>
+<p>rtl.css                               - THEME DEPENDENT</p>
+</li><li>
+<p>screenshot.png                - THEME DEPENDENT</p>
+</li><li>
+<p>search.php                    - CORE FILE</p>
+</li><li>
+<p>searchform.php                - THEME DEPENDENT</p>
+</li><li>
+<p>single.php                    - CORE FILE</p>
+</li><li>
+<p>style.css                             - THEME DEPENDENT</p>
+</li><li>
+<p>template_archives.php - CORE FILE</p>
+</li><li>
+<p>template_builder.php  - CORE FILE</p>
+</li><li>
+<p>template_grid.php             - CORE FILE</p>
+</li><li>
+<p>template_list.php             - CORE FILE</p>
+</li><li>
+<p>template_redirect.php - CORE FILE</p>
+</li><li>
+<p>template_sitemap.php  - CORE FILE</p>
+</li></ul>
+<hr style="height: 10px">
+
+<h1>Frontend Theme Hooks</h1>
+<hr style="height: 10px">
+<ul><li>
+<p>This framework is designed around everything being edited via hooks and
+filters.</p>
+</li><li>
+<p>In this section outlines all of the primary frontend actions and the
+default function that the framework applies. Make sure to check your
+current theme’s functions.php files for any possible edits to the following
+actions.</p>
+</li><li>
+<p>If you dive deeper into the framework’s core files, you can find many more
+actions and filters.</p>
+</li></ul>
+
+<p>1) HTML Head</p>
+
+<pre>A) themeblvd_title
+        - Description: The title tag.
+        - Default framework hooked function: themeblvd_title_default</pre>
+
+<p>2) Before and after site</p>
+
+<pre>A) themeblvd_before
+        - Description: Before the site just after the opening body tag.
+        - No default hooked function by framework
+
+B) themeblvd_after
+        - Description: After the site just before the closing body tag.
+        - No default hooked function by framework</pre>
+
+<p>3) Header</p>
+
+<pre>A) themeblvd_header_top
+        - Description: The highest location in the header.
+        - No default hooked function by framework
+
+B) themeblvd_header_above
+        - Description: Location above logo, but below themeblvd_header_top.
+        - Default framework hooked function: themeblvd_header_above_default
+
+C) themeblvd_header_content
+        - Description: Main content area of the header, default function calls themeblvd_header_logo and themeblvd_header_addon here.
+        - Default framework hooked function: themeblvd_header_content_default
+
+D) themeblvd_header_logo
+        - Description: Website logo, called in themeblvd_header_content by default.
+        - Default framework hooked function: themeblvd_header_logo_default
+
+E) themeblvd_header_addon
+        - Description: Additional area within default themeblvd_header_content.
+        - No default hooked function by framework
+
+F) themeblvd_header_menu
+        - Description: Main menu below content of header.
+        - Default framework hooked function: themeblvd_header_content_default
+
+G) themeblvd_header_menu_addon
+        - Description: Adds to default themeblvd_header_menu.
+        - No default hooked function by framework</pre>
+
+<p>4) Featured area</p>
+
+<pre>A) themeblvd_featured_start
+        - Description: Start HTML markup for featured area.
+        - Default framework hooked function: themeblvd_featured_start_default
+
+B) themeblvd_featured_{type}
+        - Description: Start content area of featured area
+        - Types: archive, blog, page, single
+        - No default hooked function by framework
+
+C) themeblvd_featured_end
+        - Description: End HTML markup for featured area.
+        - Default framework hooked function: themeblvd_featured_end_default</pre>
+
+<p>5) Main content area</p>
+
+<pre>A) themeblvd_main_start
+        - Description: Start HTML markup for main area.
+        - Default framework hooked function: themeblvd_main_start_default
+
+B) themeblvd_main_top
+        - Description: Top of main area, default displays &quot;ad_above_content&quot; widget area.
+        - Default framework hooked function: themeblvd_main_top_default
+
+C) themeblvd_main_bottom
+        - Description: Bottom of main area, default displays &quot;ad_below_content&quot; widget area.
+        - Default framework hooked function: themeblvd_main_bottom_default
+
+D) themeblvd_main_end
+        - Description: End HTML markup for main area.
+        - Default framework hooked function: themeblvd_main_end_default
+
+E) themeblvd_breadcrumbs
+        - Description: Breadcrumbs, called after themeblvd_main_top.
+        - Default framework hooked function: themeblvd_breadcrumbs_default
+
+F) themeblvd_before_layout
+        - Description: Your last chance to add any content before content and sidebars.
+        - No default hooked function by framework</pre>
+
+<p>6) Footer</p>
+
+<pre>A) themeblvd_footer_above
+        - Description: Before footer starts.
+        - No default hooked function by framework
+
+B) themeblvd_footer_content
+        - Description: Primary content area of footer, default holds dymanically setup columns from Theme Options.
+        - Default framework hooked function: themeblvd_footer_content_default
+
+C) themeblvd_footer_sub_content
+        - Description: Area for copyright info.
+        - Default framework hooked function: themeblvd_footer_sub_content_default
+
+D) themeblvd_footer_below
+        - Description: Bottom of footer area, default displays &quot;ad_below_footer&quot; widget area.
+        - Default framework hooked function: themeblvd_footer_below_default</pre>
+
+<p>7) Content</p>
+
+<pre>A) themeblvd_content_top
+        - Description: Top of content area.
+        - No default hooked function by framework
+
+B) themeblvd_blog_meta
+        - Description: Meta info for blog post.
+        - Default framework hooked function: themeblvd_blog_meta_default
+
+C) themeblvd_blog_tags
+        - Description: Tags for blog post.
+        - Default framework hooked function: themeblvd_blog_tags_default
+
+D) themeblvd_the_post_thumbnail
+        - Description: The post thumbnail for posts. We'd really suggest not messing with this one. :)
+        - Default framework hooked function: themeblvd_the_post_thumbnail_default
+
+E) themeblvd_blog_content
+        - Description: Shows content area of post in blogroll.
+        - Default framework hooked function: themeblvd_blog_content_default</pre>
+<hr style="height: 10px">
+
+<h1>Page Templates</h1>
+<hr style="height: 10px">
+
+<p>1) Archives - template_archives.php</p>
+
+<pre>* This template file lists the last 30 posts, the categories, and the date archives.</pre>
+
+<p>2) Custom Layout - template_builder.php</p>
+
+<pre>* This template file shows custom layouts built with the Layout Builder.</pre>
+
+<p>3) Post Grid - template_grid.php</p>
+
+<pre>* This template file shows a grid of posts, which many might refer to as a &quot;Portfolio&quot;. 
+* You can use the following custom fields:
+        - categories: Categories to include, category slugs separated by commas (no spaces!), or blank for all categories
+        - category_name: Slug of category to include
+        - columns: Number of posts per row
+        - rows: Number of rows - 2, 3, 4, or 5
+        - orderby: post_date, title, comment_count, rand
+        - order: DESC, ASC
+        - offset: Number of posts to offset off the start, defaults to 0</pre>
+
+<p>4) Post List - template_list.php</p>
+
+<pre>* This template file shows a grid of posts, which many might refer to as a &quot;Blog&quot;. 
+* You can use the following custom fields:              
+        - categories: Categories to include, category slugs separated by commas (no spaces!), or blank for all categories
+        - category_name: Slug of category to include
+        - orderby: post_date, title, comment_count, rand
+        - order: DESC, ASC
+        - offset: Number of posts to offset off the start, defaults to 0</pre>
+
+<p>5) Redirect - template_redirect.php</p>
+
+<pre>* This template file will redirect the current page to a URL.
+* To use, put the URL of the webpage you want to forward to by itself in the content of the page.</pre>
+
+<p>6) Sitemap - template_sitemap.php</p>
+
+<pre>* This template file lists all pages, categories, and posts.</pre>
+<hr style="height: 10px">
+
+<h1>Shortcodes</h1>
+<hr style="height: 10px">
+
+<p>1) Columns</p>
+
+<pre>* This group of shortcodes allow you to setup columns. The last shortcode of a row always needs to have the word &quot;last&quot; and you should end each row with [clear].
+
+* Example Row: 
+        [one_third]content...[one_third]
+        [one_third]content...[one_third]
+        [one_third last]content...[one_third]
+        [clear]
+
+* Available column shortcodes:  
+        - [one_sixth]
+        - [one_fourth]
+        - [one_third]
+        - [one_half]
+        - [two_third]
+        - [three_fourth]
+        - [one_fifth]
+        - [two_fifth]
+        - [three_fifth]
+        - [four_fifth]
+        - [three_tenth]
+        - [seven_tenth]
+        - [clear]</pre>
+
+<p>2) HTML</p>
+
+<pre>A) [button]
+
+        Required arguments
+        - link: The full URL of where you want the button to link
+
+        Optional arguments
+        - color: default, black, blue, brown, dark_blue, dark_brown, dark_green, green, mauve, orange, pearl, pink, purple, red, slate_grey, silver, steel_blue, teal, yellow, wheat, white
+        - target: _self, _blank, or lightbox
+        - size: small, medium, large
+        - class: Any CSS classes you want to add
+        - title: Title of link, will default to button's text
+
+B) [icon]
+
+        Required arguments
+        - image: Name of icon's image {image_name}.png located in /framework/frontend/assets/images/icons/
+
+        Optional arguments:
+        - align: left, right, center, none
+
+C) [box]
+
+        Required arguments
+        - style: alert, approved, camera, cart, doc, download, media, note, notice, quote, warning
+
+D) [icon_list]
+
+        Required arguments
+        - style: check, crank, delete, doc, plus, star, star2, warning, write
+
+E) [icon_link]
+
+        Required arguments
+        - icon: alert, approved, attention, camera, cart, doc, download, media, note, notice, quote
+        - link: The full URL of where you want the link to go
+
+        Optional arguments
+        - target: _self or _blank
+        - class: Any CSS classes you want to add
+        - title: Title of link, will default to button's text
+
+F) [highlight]
+
+        - No arguments -
+
+G) [dropcap]
+
+        - No arguments -
+
+H) [divider]
+
+        Optional arguments
+        -style: dashed, shadow, solid</pre>
+
+<p>3) Tabs</p>
+
+<pre>* Usage Example:
+
+[tabs style=&quot;open&quot; tab_1=&quot;Tab #1&quot; tab_2=&quot;Tab #2&quot; tab_3=&quot;Tab #3&quot;]
+[tab_1]First tab content here.[/tab_1]
+[tab_2]Second content here.[/tab_2]
+[tab_3]Third tab content here.[/tab_3]
+[/tabs]</pre>
+
+<p>4) Toggles</p>
+
+<pre>* Usage Example:
+
+[raw]
+[toggle title=&quot;Toggle #1&quot;]This is the content of the toggle.[/toggle]
+[toggle title=&quot;Toggle #2&quot;]This is the content of the toggle.[/toggle]
+[toggle title=&quot;Toggle #3&quot;]This is the content of the toggle.[/toggle]
+[toggle title=&quot;Toggle #4&quot;]This is the content of the toggle.[/toggle]
+[toggle title=&quot;Toggle #5&quot;]This is the content of the toggle.[/toggle]
+[/raw]</pre>
+
+<p>5) Sliders</p>
+
+<pre>A) [slider]
+
+        Required arguments
+        - id: ID of your custom-built slider
+
+B) [post_grid_slider]
+
+        Optional arguments
+        - fx: Transition of slider - fade, slide
+        - timeout: Seconds in between transitions, 0 for no auto-advancing
+        - nav_standard: Show standard nav dots to control slider - true or false
+        - nav_arrows: Show directional arrows to control slider - true or false
+        - pause_play: Show pause/play button - true or false
+        - categories: Categories to include, category slugs separated by commas (no spaces!), or blank for all categories
+        - columns: Number of posts per row - 2, 3, 4, or 5
+        - rows: Number of rows per slide
+        - numberposts: Total number of posts, -1 for all posts
+        - orderby: post_date, title, comment_count, rand
+        - order: DESC, ASC
+        - offset: Number of posts to offset off the start, defaults to 0
+
+C) [post_list_slider]
+
+        Optional arguments
+         - fx: Transition of slider - fade, slide
+         - timeout: Seconds in between transitions, 0 for no auto-advancing
+         - nav_standard: Show standard nav dots to control slider - true or false
+         - nav_arrows: Show directional arrows to control slider - true or false
+         - pause_play: Show pause/play button - true or false
+         - categories: Categories to include, category slugs separated by commas, or blank for all categories
+         - thumbs: Size of post thumbnails - default, small, full, hide
+         - post_content: Show excerpts or full content - default, content, excerpt
+         - posts_per_slide: Number of posts per slide.
+         - numberposts: Total number of posts, -1 for all posts
+         - orderby: post_date, title, comment_count, rand
+         - order: DESC, ASC
+         - offset: number of posts to offset off the start, defaults to 0</pre>
+
+<p>6) Display Posts</p>
+
+<pre>A) [post_grid]
+
+        Optional arguments
+        - categories: Categories to include, category slugs separated by commas (no spaces!), or blank for all categories
+        - columns: Number of posts per row - 2, 3, 4, or 5
+        - rows: Number of rows
+        - orderby: post_date, title, comment_count, rand
+        - order: DESC, ASC
+        - offset: Number of posts to offset off the start, defaults to 0
+        - link: Show link after posts, true or false
+        - link_text: Text for the link
+        - link_url: URL where link should go
+        - link_target: Where link opens - _self, _blank
+
+B) [post_list]
+
+        Optional arguments
+        - categories: Categories to include, category slugs separated by commas (no spaces!), or blank for all categories
+        - thumbs: Size of post thumbnails - default, small, full, hide
+        - post_content: Show excerpts or full content - default, content, excerpt
+        - numberposts: Total number of posts, -1 for all posts
+        - orderby: post_date, title, comment_count, rand
+        - order: DESC, ASC
+        - offset: Number of posts to offset off the start, defaults to 0
+        - link: Show link after posts, true or false
+        - link_text: Text for the link
+        - link_url: URL where link should go
+        - link_target: Where link opens - _self, _blank</pre>
+
+  </div>
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+</body>
+</html>
+
