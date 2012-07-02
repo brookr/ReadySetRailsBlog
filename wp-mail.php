@@ -21,7 +21,7 @@ require_once( ABSPATH . WPINC . '/class-pop3.php' );
 
 /** Only check at this interval for new messages. */
 if ( !defined('WP_MAIL_INTERVAL') )
-	define('WP_MAIL_INTERVAL', 30); // .5 minutes
+	define('WP_MAIL_INTERVAL', 300); // 5 minutes
 
 $last_checked = get_transient('mailserver_last_checked');
 
@@ -105,7 +105,7 @@ for ( $i = 1; $i <= $count; $i++ ) {
 
 			// Set the author using the email address (From or Reply-To, the last used)
 			// otherwise use the site admin
-			if ( preg_match('/(From|Reply-To): /', $line) )  {
+			if ( ! $author_found && preg_match( '/^(From|Reply-To): /', $line ) ) {
 				if ( preg_match('|[a-z0-9_.-]+@[a-z0-9_.-]+(?!.*<)|i', $line, $matches) )
 					$author = $matches[0];
 				else
@@ -114,14 +114,10 @@ for ( $i = 1; $i <= $count; $i++ ) {
 				if ( is_email($author) ) {
 					echo '<p>' . sprintf(__('Author is %s'), $author) . '</p>';
 					$userdata = get_user_by('email', $author);
-					if ( empty($userdata) ) {
-						$author_found = false;
-					} else {
+					if ( ! empty( $userdata ) ) {
 						$post_author = $userdata->ID;
 						$author_found = true;
 					}
-				} else {
-					$author_found = false;
 				}
 			}
 
@@ -161,7 +157,7 @@ for ( $i = 1; $i <= $count; $i++ ) {
 		$user = new WP_User($post_author);
 		$post_status = ( $user->has_cap('publish_posts') ) ? 'publish' : 'pending';
 	} else {
-		// Author not found in DB, set status to pending.  Author already set to admin.
+		// Author not found in DB, set status to pending. Author already set to admin.
 		$post_status = 'pending';
 	}
 
@@ -226,11 +222,9 @@ for ( $i = 1; $i <= $count; $i++ ) {
 		$pop3->reset();
 		exit;
 	} else {
-		echo '<p>' . sprintf(__('Mission complete.  Message <strong>%s</strong> deleted.'), $i) . '</p>';
+		echo '<p>' . sprintf(__('Mission complete. Message <strong>%s</strong> deleted.'), $i) . '</p>';
 	}
 
 }
 
 $pop3->quit();
-
-?>
